@@ -8,7 +8,7 @@ const PACE = 110; /* seg por pregunta en cuenta regresiva (4h/130 ≈ 1:51) */
 
 let BANK = [];                       /* todas las preguntas */
 const cfg = { area:"Todas", cant:20, modo:"practica",
-              cron:"up", shuffle:true, desempate:true };
+              cron:"up", shuffle:true, desempate:true, tipo:"todas" };
 let ses = null;
 
 /* ---------------- utilidades ---------------- */
@@ -88,8 +88,11 @@ function recordSession(preguntas,resp){
 }
 
 /* ---------------- pantalla inicio ---------------- */
+function matchTipo(q){
+  return cfg.tipo==="todas" || (q.claveTipo||"oficial")===cfg.tipo;
+}
 function countArea(name){
-  return BANK.filter(q=> name==="Todas"||q.area===name).length;
+  return BANK.filter(q=> (name==="Todas"||q.area===name) && matchTipo(q)).length;
 }
 function barColor(pct,has){
   if(!has) return "var(--soft2)";
@@ -148,7 +151,7 @@ function renderStats(){
 
 /* ---------------- comenzar simulacro ---------------- */
 function comenzar(){
-  let pool=BANK.filter(q=> cfg.area==="Todas"||q.area===cfg.area);
+  let pool=BANK.filter(q=> (cfg.area==="Todas"||q.area===cfg.area) && matchTipo(q));
   if(!cfg.desempate) pool=pool.filter(q=>!q.desempate);
   if(!pool.length){ toast("No hay preguntas con esa configuración"); return; }
   pool = cfg.shuffle ? shuffle(pool.slice()) : pool.slice();
@@ -191,6 +194,10 @@ function renderPregunta(){
   $("qProg").textContent=(i+1)+" / "+ses.preguntas.length;
   $("qFill").style.width=(i/ses.preguntas.length*100)+"%";
   $("qDesem").classList.toggle("hidden",!q.desempate);
+  const esOf=(q.claveTipo||"oficial")==="oficial";
+  const tEl=$("qTipo");
+  tEl.textContent=esOf?"PUR 2025":"Práctica";
+  tEl.className="tag-tipo "+(esOf?"of":"pr");
 
   /* flag */
   const fb=$("flagBtn");
@@ -383,6 +390,11 @@ function renderRevision(){
     }
     h+='<div class="rev-line ln-ok"><span class="b">Correcta:</span><span>'+esc(corr)+'</span></div>';
     h+='<div class="rev-expl">'+esc(q.explicacion)+'</div>';
+    const meta=[];
+    if(q.tema) meta.push("Tema: "+q.tema);
+    if(q.fuente) meta.push("Fuente: "+q.fuente);
+    meta.push((q.claveTipo||"oficial")==="oficial" ? "PUR 2025 · clave oficial" : "Pregunta de práctica");
+    h+='<div class="rev-meta">'+esc(meta.join("  ·  "))+'</div>';
     const it=document.createElement("div"); it.className="rev-item"; it.innerHTML=h;
     list.appendChild(it);
   });
@@ -434,6 +446,12 @@ $("resetStats").onclick=async()=>{
     localStorage.removeItem("pur_stats"); renderStats(); toast("Progreso borrado");
   }
 };
+document.querySelectorAll("#tipoRow .pill").forEach(p=>{
+  p.onclick=()=>{
+    document.querySelectorAll("#tipoRow .pill").forEach(x=>x.classList.remove("on"));
+    p.classList.add("on"); cfg.tipo=p.dataset.tipo; renderHome();
+  };
+});
 document.querySelectorAll("#modoRow .pill").forEach(p=>{
   p.onclick=()=>{
     document.querySelectorAll("#modoRow .pill").forEach(x=>x.classList.remove("on"));

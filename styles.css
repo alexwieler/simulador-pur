@@ -161,6 +161,17 @@ html[data-theme="dark"] .chip{color:var(--ink)}
   background:var(--warn-bg);color:var(--warn);font-size:10.5px;font-weight:800;
   padding:3px 9px;border-radius:20px;letter-spacing:.03em;
 }
+.tag-tipo{
+  font-size:10.5px;font-weight:800;padding:3px 9px;border-radius:20px;letter-spacing:.02em;
+}
+.tag-tipo.of{background:var(--primary-soft);color:var(--primary)}
+.tag-tipo.pr{background:#ede9fe;color:#6d28d9}
+html[data-theme="dark"] .tag-tipo.of{color:var(--ink)}
+html[data-theme="dark"] .tag-tipo.pr{background:#2e2547;color:#c4b5fd}
+.rev-meta{
+  font-size:11px;color:var(--muted);margin-top:7px;font-weight:600;
+  border-top:1px dashed var(--line);padding-top:6px;
+}
 .flagbtn{
   margin-left:auto;display:flex;align-items:center;gap:5px;
   border:1.5px solid var(--line);background:var(--card);color:var(--muted);
