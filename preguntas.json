@@ -1,0 +1,4305 @@
+{
+ "meta": {
+  "titulo": "Banco de preguntas PUR",
+  "descripcion": "Prueba Única de Residencias Médicas - Uruguay",
+  "version": "1.0",
+  "anios": [
+   2025
+  ],
+  "total": 130
+ },
+ "preguntas": [
+  {
+   "id": "2025-001",
+   "anio": 2025,
+   "n": 1,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "7 meses, varón. Concurre a control de salud. 2da gestación, embarazo bien controlado. Parto vaginal a las 39 semanas, peso al nacer 3550 grs, longitud 49 cm, perímetro craneano 35 cm. Apgar 8/9. Alimentado con pecho exclusivo. Último control en salud: 6 meses: peso= 5900 grs, longitud= 62 cm, perímetro craneano= 42 cm. Al examen se destaca: Peso= 6100 grs, longitud=64,5 cm, perímetro craneano= 42 cm, Peso/longitud= P3. Buen estado general, sonríe, apirético. Normo coloreado. Panículo adiposo menor de 1cm, hipoturgente en cara interna de muslo. Frecuencia respiratoria 40 rpm. Examen cardiovascular y resto normal.",
+   "pregunta": "En base a la anamnesis, examen físico y antropometría, ¿qué diagnostico nutricional realizaría?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Desnutrición crónica"
+    },
+    {
+     "l": "b",
+     "t": "Retraso constitucional del crecimiento"
+    },
+    {
+     "l": "c",
+     "t": "Crecimiento adecuado para la edad"
+    },
+    {
+     "l": "d",
+     "t": "Desnutrición aguda"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La longitud conservada con relación peso/longitud descendida (P3) y panículo adiposo disminuido indica un compromiso nutricional reciente: desnutrición aguda. La desnutrición crónica comprometería la talla.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-002",
+   "anio": 2025,
+   "n": 2,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué índice antropómétrico utiliza para el diagnóstico en este lactante?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Peso para la edad"
+    },
+    {
+     "l": "b",
+     "t": "Talla para la edad"
+    },
+    {
+     "l": "c",
+     "t": "Relación Peso/longitud"
+    },
+    {
+     "l": "d",
+     "t": "Perímetro craneano/edad"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "En el menor de 2 años el indicador antropométrico para diagnosticar desnutrición aguda es la relación peso/longitud (peso para la talla).",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-003",
+   "anio": 2025,
+   "n": 3,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál de los siguientes déficits explica el hallazgo de un panículo hipoturgente en este lactante?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Disminución de proteínas"
+    },
+    {
+     "l": "b",
+     "t": "Disminución del tejido celular subcutáneo"
+    },
+    {
+     "l": "c",
+     "t": "Déficit hídrico"
+    },
+    {
+     "l": "d",
+     "t": "Déficit vitamínico"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "El panículo adiposo hipoturgente traduce disminución del tejido celular subcutáneo (reserva grasa), hallazgo propio de la desnutrición aguda.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-004",
+   "anio": 2025,
+   "n": 4,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué recomendaciones de sueño seguro brindaría a los padres de este lactante?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "No abrigar demasiado"
+    },
+    {
+     "l": "b",
+     "t": "Suspender lactancia exclusiva"
+    },
+    {
+     "l": "c",
+     "t": "Dormir en decúbito prono hasta el año de vida"
+    },
+    {
+     "l": "d",
+     "t": "Almohada entre protuberancia occipital y séptima vértebra"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El sueño seguro indica decúbito supino y evitar el sobreabrigo, ya que el sobrecalentamiento es factor de riesgo de muerte súbita del lactante.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-005",
+   "anio": 2025,
+   "n": 5,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Según la \"Guía nacional para la vigilancia del desarrollo del niño y la niña menores de 5 años\", ¿qué logro motor espera en este lactante de 7 meses?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Lanzar la pelota"
+    },
+    {
+     "l": "b",
+     "t": "Sentarse con apoyo"
+    },
+    {
+     "l": "c",
+     "t": "Mantenerse de pie sin apoyo"
+    },
+    {
+     "l": "d",
+     "t": "Utilizar la pinza para tomar objetos"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "A los 7 meses se espera que el lactante se siente con apoyo. La pinza fina, la bipedestación sin apoyo y lanzar la pelota son adquisiciones posteriores.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-006",
+   "anio": 2025,
+   "n": 6,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Niña de 10 meses, con diarrea acuosa de 12 horas de evolución. Al examen físico, está alerta, eupnéica, con mucosas ligeramente secas y sin signos de deshidratación grave.",
+   "pregunta": "Tras varias horas de hidratación solo con agua, ¿cuál de las siguientes complicaciones metabólicas es más probable?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Hiponatremia"
+    },
+    {
+     "l": "b",
+     "t": "Hipernatremia"
+    },
+    {
+     "l": "c",
+     "t": "Acidosis metabólica"
+    },
+    {
+     "l": "d",
+     "t": "Hipopotasemia"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "Hidratar exclusivamente con agua libre, sin aporte de sodio, provoca hiponatremia dilucional.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-007",
+   "anio": 2025,
+   "n": 7,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es el principal mecanismo patogénico en la infección por rotavirus?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Infección selectiva de las células de la punta de las vellosidades"
+    },
+    {
+     "l": "b",
+     "t": "Necrosis hemorrágica de las células de la mucosa intestinal"
+    },
+    {
+     "l": "c",
+     "t": "Adherencia y borramiento de las vellosidades intestinales"
+    },
+    {
+     "l": "d",
+     "t": "Afectación de las células M de las placas de Peyer"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El rotavirus infecta selectivamente los enterocitos maduros de la punta de las vellosidades, generando malabsorción y diarrea osmótica.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-008",
+   "anio": 2025,
+   "n": 8,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuáles de los siguientes hallazgos en la tira reactiva es predictor de infección del tracto urinario?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Proteinuria y bilirrubinuria"
+    },
+    {
+     "l": "b",
+     "t": "Glucosuria y bilirrubinuria"
+    },
+    {
+     "l": "c",
+     "t": "Glucosuria y hemoglobinuria"
+    },
+    {
+     "l": "d",
+     "t": "Estearasas leucocitarias y nitritos"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La combinación de esterasa leucocitaria y nitritos positivos en la tira reactiva es el mejor predictor de infección del tracto urinario.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-009",
+   "anio": 2025,
+   "n": 9,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "8 meses, consulta por rinorrea y fatiga. Se realiza diagnóstico de bronquiolitis y dada la mala evolución se extrae la siguiente gasometría venosa: pH: 7.29, PaCO2: 53 mmHg, HCO3: 20 mEq/L, PaO2: 35 mmHg.",
+   "pregunta": "¿Cuál es la alteración ácido-base que presenta este paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Acidosis respiratoria aguda con compensación metabólica adecuada"
+    },
+    {
+     "l": "b",
+     "t": "Alcalosis metabólica con acidosis respiratoria compensada"
+    },
+    {
+     "l": "c",
+     "t": "Acidosis metabólica con compensación respiratoria adecuada"
+    },
+    {
+     "l": "d",
+     "t": "Acidosis metabólica y acidosis respiratoria"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "pH bajo con PaCO2 elevada (acidosis respiratoria) y bicarbonato descendido (acidosis metabólica): es un trastorno mixto, sin compensación adecuada.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-010",
+   "anio": 2025,
+   "n": 10,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál de las siguientes medidas terapéuticas tiene eficacia en el tratamiento de los pacientes con Bronquiolitis con un score de Tal modificado mantenido mayor a 6?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Oxígeno"
+    },
+    {
+     "l": "b",
+     "t": "Corticoides"
+    },
+    {
+     "l": "c",
+     "t": "Antibióticos"
+    },
+    {
+     "l": "d",
+     "t": "Broncodilatadores"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "En la bronquiolitis, la única medida con eficacia demostrada es el oxígeno; corticoides, antibióticos y broncodilatadores no han mostrado beneficio.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-011",
+   "anio": 2025,
+   "n": 11,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "14 años, sexo femenino, inicia relaciones sexuales. Consulta por disuria y polaquiuria, ¿cuál de los siguientes es el agente etiológico más probable?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Escherichia coli"
+    },
+    {
+     "l": "b",
+     "t": "Staphylococcus aureus"
+    },
+    {
+     "l": "c",
+     "t": "Proteus mirabilis"
+    },
+    {
+     "l": "d",
+     "t": "Klebsiella pneumoniae"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "Escherichia coli es el agente etiológico más frecuente de infección urinaria en todas las edades.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-012",
+   "anio": 2025,
+   "n": 12,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuándo puede retornar a la escuela un niño con varicela?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Tres meses después de la resolución, en pacientes no vacunados"
+    },
+    {
+     "l": "b",
+     "t": "Cursando el periodo de estado si el paciente está afebril"
+    },
+    {
+     "l": "c",
+     "t": "Cuando todas las lesiones estén en fase de costra"
+    },
+    {
+     "l": "d",
+     "t": "Un mes después del período de convalescencia"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El niño con varicela puede reintegrarse a la escuela cuando todas las lesiones están en fase de costra, momento en que cesa la contagiosidad.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-013",
+   "anio": 2025,
+   "n": 13,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál de las siguientes vacunas puede reducir el riesgo de neumonía en la infancia?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Vacuna contra varicela"
+    },
+    {
+     "l": "b",
+     "t": "Vacuna contra el tétanos"
+    },
+    {
+     "l": "c",
+     "t": "Vacuna contra hepatitis A"
+    },
+    {
+     "l": "d",
+     "t": "Vacuna contra poliomielitis"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "La vacuna contra la varicela reduce las neumonías de la infancia, ya que la neumonía (viral o bacteriana sobreagregada) es una complicación frecuente de esa enfermedad.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-014",
+   "anio": 2025,
+   "n": 14,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Según las normas nacionales de atención pediátrica de Uruguay, ¿cuál de los siguientes criterios indica la hospitalización en un niño con neumonía?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Procalcitonina 0,2 ng/L"
+    },
+    {
+     "l": "b",
+     "t": "Leucocitos 11.000/ml"
+    },
+    {
+     "l": "c",
+     "t": "Fiebre elevada (>39°C) en las primeras 48 horas"
+    },
+    {
+     "l": "d",
+     "t": "Saturación de oxígeno en aire ambiente menor al 90%"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La saturación de oxígeno menor a 90% en aire ambiente (hipoxemia) es criterio de hospitalización en la neumonía infantil.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-015",
+   "anio": 2025,
+   "n": 15,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Niña de 8 años, concurre a control en salud. Sin antecedentes personales a destacar. Alto consumo de ultraprocesados y bebidas azucaradas. Sedentarismo. Mas de 6hs de pantalla al día. Al examen: Peso: 50 kg, Talla: 128 cm, IMC > p97 (score Z +2,2 para edad y sexo). Circunferencia abdominal: 70 cm. >p90. Lúcida, normocoloreada. Bien hidratada y perfundida. Acantosis nigricans en cuello. Grasa centro-abdominal. Tanner Mama: 1, Vello púbico: 1. PA: 90/60 mmHg. Resto del examen normal.",
+   "pregunta": "¿Qué diagnóstico nutricional realiza en esta niña?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Sobrepeso"
+    },
+    {
+     "l": "b",
+     "t": "Obesidad"
+    },
+    {
+     "l": "c",
+     "t": "Obesidad severa"
+    },
+    {
+     "l": "d",
+     "t": "Peso adecuado a su edad biológica"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Un IMC mayor al p97, con score Z entre +2 y +3, corresponde a obesidad. Por encima de +3 sería obesidad severa.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-016",
+   "anio": 2025,
+   "n": 16,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué traduce la acantosis nigricans que presenta esta paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Dislipemia"
+    },
+    {
+     "l": "b",
+     "t": "Hipotiroidismo"
+    },
+    {
+     "l": "c",
+     "t": "Resistencia a la insulina"
+    },
+    {
+     "l": "d",
+     "t": "Melanocitosis congénita"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La acantosis nigricans es un marcador clínico de resistencia a la insulina.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-017",
+   "anio": 2025,
+   "n": 17,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué utilidad tiene el valor de la circunferencia abdominal?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Medida poco utilizada y limitada a la adolescencia"
+    },
+    {
+     "l": "b",
+     "t": "Limitado valor en traducir la grasa intraabdominal"
+    },
+    {
+     "l": "c",
+     "t": "Relación directa con riesgo aterogénico"
+    },
+    {
+     "l": "d",
+     "t": "Indicador específico de malnutrición"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La circunferencia abdominal estima la grasa visceral y tiene relación directa con el riesgo aterogénico y cardiometabólico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-018",
+   "anio": 2025,
+   "n": 18,
+   "area": "Pediatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué complicaciones metabólicas pesquisaría en esta niña?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Hipocalcemia"
+    },
+    {
+     "l": "b",
+     "t": "Hipoglicemia"
+    },
+    {
+     "l": "c",
+     "t": "Síndrome metabólico"
+    },
+    {
+     "l": "d",
+     "t": "Síndrome de ovario poliquístico"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "En la obesidad infantil deben pesquisarse las complicaciones del síndrome metabólico: dislipemia, hipertensión y alteración del metabolismo glucídico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-019",
+   "anio": 2025,
+   "n": 19,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "En la oclusión cerrada de colon, el dolor exquisito a la compresión y descompresión de fosa ilíaca y flanco derecho traduce el compromiso isquémico de:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Última asa ileal"
+    },
+    {
+     "l": "b",
+     "t": "Apéndice cecal"
+    },
+    {
+     "l": "c",
+     "t": "Epiplón mayor"
+    },
+    {
+     "l": "d",
+     "t": "Colon ceco-ascendente"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "En la oclusión en asa cerrada de colon, el colon ceco-ascendente es el segmento de mayor distensión (ley de Laplace) y de mayor riesgo isquémico; el dolor exquisito en fosa ilíaca y flanco derecho lo traduce.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-020",
+   "anio": 2025,
+   "n": 20,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Ante un estudio de fecatest positivo, ¿qué conducta adoptaría?:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Repite el fecatest a los 3 meses"
+    },
+    {
+     "l": "b",
+     "t": "Solicita una fibrocolonoscopia"
+    },
+    {
+     "l": "c",
+     "t": "Solicita una rectosigmoidoscopia"
+    },
+    {
+     "l": "d",
+     "t": "Solicita un colon por enema"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Ante un test de sangre oculta en materias fecales (fecatest) positivo, el estudio indicado es la fibrocolonoscopia, que explora todo el colon y permite biopsiar.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-021",
+   "anio": 2025,
+   "n": 21,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "El dolor anal agudo, intenso durante la defecación y post defecatorio es la presentación típica de:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Fisura anal"
+    },
+    {
+     "l": "b",
+     "t": "Fistula perianal"
+    },
+    {
+     "l": "c",
+     "t": "Absceso perianal"
+    },
+    {
+     "l": "d",
+     "t": "Hemorroides"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El dolor anal intenso durante y después de la defecación es la presentación típica de la fisura anal.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-022",
+   "anio": 2025,
+   "n": 22,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer de 28 años sin antecedentes a destacar que consulta por cuadro de 48 horas de evolución dado por distensión abdominal, detención del tránsito intestinal para materias y gases, vómitos y fiebre. Al examen distensión centroabdominal, silencio auscultatorio.",
+   "pregunta": "¿Cuál es el diagnóstico clínico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Apendicitis aguda"
+    },
+    {
+     "l": "b",
+     "t": "Íleo biliar"
+    },
+    {
+     "l": "c",
+     "t": "Úlcera perforada"
+    },
+    {
+     "l": "d",
+     "t": "Vólvulo de sigmoides"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El cuadro de íleo con fiebre y peritonismo en una mujer joven sin antecedentes corresponde a una apendicitis aguda evolucionada.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-023",
+   "anio": 2025,
+   "n": 23,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "El signo de Bard y Pick en la obstrucción neoplásica de la vía biliar permite topografiar el tumor en:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Conducto cístico"
+    },
+    {
+     "l": "b",
+     "t": "Vía biliar por encima de la confluencia cístico-coledociana"
+    },
+    {
+     "l": "c",
+     "t": "Vía biliar por debajo de la confluencia cístico-coledociana"
+    },
+    {
+     "l": "d",
+     "t": "Conducto hepático derecho"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El signo de Bard y Pick (vesícula distendida palpable con ictericia) topografía la obstrucción tumoral de la vía biliar por debajo de la confluencia cístico-coledociana.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-024",
+   "anio": 2025,
+   "n": 24,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué patología mamaria es la causa más frecuente de telorragia?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Cáncer"
+    },
+    {
+     "l": "b",
+     "t": "Papiloma intraductal"
+    },
+    {
+     "l": "c",
+     "t": "Tumor Phyllodes"
+    },
+    {
+     "l": "d",
+     "t": "Cicatriz radiada"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "El papiloma intraductal es la causa más frecuente de telorragia (secreción sanguinolenta por el pezón).",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-025",
+   "anio": 2025,
+   "n": 25,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es un factor de buen pronóstico en el cáncer de mama?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Valores elevados de Ki 67"
+    },
+    {
+     "l": "b",
+     "t": "Tumores luminales"
+    },
+    {
+     "l": "c",
+     "t": "Pacientes jóvenes"
+    },
+    {
+     "l": "d",
+     "t": "Tumores triple negativos"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Los tumores luminales, con receptores hormonales positivos, son de buen pronóstico; el Ki67 elevado, los triple negativos y la edad joven son factores de mal pronóstico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-026",
+   "anio": 2025,
+   "n": 26,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es un factor de riesgo posoperatorio en la producción de una eventración?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Alto requerimiento de opiáceos"
+    },
+    {
+     "l": "b",
+     "t": "Deambulación precoz"
+    },
+    {
+     "l": "c",
+     "t": "Infección del sitio quirúrgico"
+    },
+    {
+     "l": "d",
+     "t": "Retomar el tránsito intestinal en las primeras 24 horas"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La infección del sitio quirúrgico es un factor de riesgo posoperatorio mayor para el desarrollo de una eventración.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-027",
+   "anio": 2025,
+   "n": 27,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "En el adenocarcinoma de esófago, ¿cuál es el factor etiopatogénico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Tabaco"
+    },
+    {
+     "l": "b",
+     "t": "Alcohol"
+    },
+    {
+     "l": "c",
+     "t": "Ingestión de líquidos calientes"
+    },
+    {
+     "l": "d",
+     "t": "Esófago de Barret"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "El esófago de Barrett (metaplasia intestinal secundaria a reflujo) es el factor etiopatogénico del adenocarcinoma de esófago; tabaco y alcohol se vinculan al carcinoma epidermoide.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-028",
+   "anio": 2025,
+   "n": 28,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué estudio solicitaría para el diagnóstico de hernia hiatal?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Tránsito baritado esofagogastroduodenal"
+    },
+    {
+     "l": "b",
+     "t": "Biopsia endoscópica"
+    },
+    {
+     "l": "c",
+     "t": "Tomografía por emisión de positrones"
+    },
+    {
+     "l": "d",
+     "t": "Ecoendoscopía"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El tránsito baritado esofagogastroduodenal es el estudio indicado para el diagnóstico de la hernia hiatal.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-029",
+   "anio": 2025,
+   "n": 29,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "La disfagia permanente y progresiva orienta a un cáncer de esófago. ¿Qué otro síntoma apoya este diagnóstico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Apetito conservado"
+    },
+    {
+     "l": "b",
+     "t": "Plenitud precoz"
+    },
+    {
+     "l": "c",
+     "t": "Repugnancia selectiva"
+    },
+    {
+     "l": "d",
+     "t": "Dispepsia atípica"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "En el cáncer de esófago el apetito se conserva, ya que la limitación es mecánica (para deglutir); esto lo diferencia de otros tumores digestivos.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-030",
+   "anio": 2025,
+   "n": 30,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es el estudio de elección para evaluar la complicación inflamatoria infecciosa de la colopatía diverticular?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Colon por enema"
+    },
+    {
+     "l": "b",
+     "t": "Fibrocolonoscopia"
+    },
+    {
+     "l": "c",
+     "t": "Ecoendoscopía"
+    },
+    {
+     "l": "d",
+     "t": "Tomografía computada"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La tomografía computada es el estudio de elección para evaluar la diverticulitis, complicación inflamatoria e infecciosa de la colopatía diverticular.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-031",
+   "anio": 2025,
+   "n": 31,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es la principal causa de pancreatitis aguda en Uruguay?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Post colangiografía endoscópica retrógrada"
+    },
+    {
+     "l": "b",
+     "t": "Hipertrigliceridemia"
+    },
+    {
+     "l": "c",
+     "t": "Litiásica"
+    },
+    {
+     "l": "d",
+     "t": "Alcohólica"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La litiasis biliar es la principal causa de pancreatitis aguda en Uruguay.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-032",
+   "anio": 2025,
+   "n": 32,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué debería solicitar en una lesión sospechosa de cáncer de ano?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Tomografía por emisión de positrones"
+    },
+    {
+     "l": "b",
+     "t": "Manometría rectal"
+    },
+    {
+     "l": "c",
+     "t": "Biopsia"
+    },
+    {
+     "l": "d",
+     "t": "Colon por enema"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "Ante una lesión sospechosa de cáncer de ano se debe realizar biopsia para la confirmación histológica.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-033",
+   "anio": 2025,
+   "n": 33,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Hombre de 50 años con hernia inguinal estrangulada, ¿qué conducta adoptaría?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Cirugía"
+    },
+    {
+     "l": "b",
+     "t": "Controles clínicos e imagenológicos durante 24 horas"
+    },
+    {
+     "l": "c",
+     "t": "Reducción manual"
+    },
+    {
+     "l": "d",
+     "t": "Ecografía de partes blandas"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "La hernia inguinal estrangulada es una urgencia quirúrgica; no debe intentarse la reducción manual por el riesgo de reintroducir un asa inviable.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-034",
+   "anio": 2025,
+   "n": 34,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué característica define la peritonitis primaria?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Polimicrobiana"
+    },
+    {
+     "l": "b",
+     "t": "Perforación visceral del tracto gastrointestinal"
+    },
+    {
+     "l": "c",
+     "t": "Respuesta al tratamiento médico"
+    },
+    {
+     "l": "d",
+     "t": "Localizada"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La peritonitis primaria (espontánea, monomicrobiana, sin perforación visceral) se caracteriza por responder al tratamiento médico antibiótico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-035",
+   "anio": 2025,
+   "n": 35,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es la causa de irreductibilidad crónica en una eventración?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Obesidad"
+    },
+    {
+     "l": "b",
+     "t": "Más de 2 anillos"
+    },
+    {
+     "l": "c",
+     "t": "Diástasis de los rectos"
+    },
+    {
+     "l": "d",
+     "t": "Pérdida de derecho a domicilio"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La pérdida del derecho a domicilio, cuando las vísceras pierden su lugar habitual en la cavidad abdominal, es causa de irreductibilidad crónica de una eventración.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-036",
+   "anio": 2025,
+   "n": 36,
+   "area": "Cirugía",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿En qué consiste la profilaxis primaria del cáncer gástrico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Evitar la ingesta de líquidos calientes"
+    },
+    {
+     "l": "b",
+     "t": "Erradicar el Helicobacter pylori"
+    },
+    {
+     "l": "c",
+     "t": "Evitar bebidas efervescentes"
+    },
+    {
+     "l": "d",
+     "t": "Evitar el café"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "La erradicación del Helicobacter pylori constituye la profilaxis primaria del cáncer gástrico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-037",
+   "anio": 2025,
+   "n": 37,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Varón, 42 años, fumador, consumo de pasta base, serología para VIH positiva desde hace más de 10 años, nunca recibió tratamiento antirretroviral. Consulta por disnea progresiva de 20 días de evolución, tos escasa, fiebre, astenia y muguet oral. Al examen: adelgazado, Tax 38°C, frecuencia respiratoria 30/min, Sato, 95% al aire, 90% con mínimos esfuerzos. Algunos estertores crepitantes finos dispersos. Radiografía de tórax: infiltrado intersticial bilateral y difuso.",
+   "pregunta": "¿Cuál es el planteo clínico más probable en este paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Neumonitis viral"
+    },
+    {
+     "l": "b",
+     "t": "Tuberculosis miliar"
+    },
+    {
+     "l": "c",
+     "t": "Neumocistosis pulmonar"
+    },
+    {
+     "l": "d",
+     "t": "Neumonía bacteriana inespecífica"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "En un paciente VIH con inmunodepresión avanzada (muguet, sin tratamiento), disnea subaguda e infiltrado intersticial bilateral difuso, el planteo es neumonía por Pneumocystis jirovecii.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-038",
+   "anio": 2025,
+   "n": 38,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "En este paciente, ¿qué estudio solicitaría para confirmar su planteo etiológico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Estudio bacteriológico directo y cultivo de expectoración"
+    },
+    {
+     "l": "b",
+     "t": "Inmunofluorescencia directa obtenida por lavado bronquio-alveolar"
+    },
+    {
+     "l": "c",
+     "t": "Reacción en cadena de la polimerasa para Mycobacterias de expectoración"
+    },
+    {
+     "l": "d",
+     "t": "Inmunocromatográfico para virus respiratorios en hisopado nasal"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "El diagnóstico de neumocistosis se confirma con inmunofluorescencia directa en una muestra obtenida por lavado broncoalveolar.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-039",
+   "anio": 2025,
+   "n": 39,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Con respecto al inicio del tratamiento antirretroviral en este paciente:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Iniciar según CD4 y estadio clínico"
+    },
+    {
+     "l": "b",
+     "t": "Esperar carga viral antes de iniciar"
+    },
+    {
+     "l": "c",
+     "t": "Lo antes posible, independientemente de la carga viral y CD4"
+    },
+    {
+     "l": "d",
+     "t": "Iniciar de forma escalonada para asegurar tolerancia"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El tratamiento antirretroviral debe iniciarse lo antes posible en todo paciente con VIH, independientemente de la carga viral y del recuento de CD4.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-040",
+   "anio": 2025,
+   "n": 40,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Según las guías GOLD 2025. ¿cuál es el manejo terapéutico broncodilatador inicial de la Enfermedad Pulmonar Obstructiva Crónica (EPOC) de bajo riesgo?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Monoterapia con B2 agonistas de corta duración"
+    },
+    {
+     "l": "b",
+     "t": "Combinación de B2 agonistas y antimuscarínico de acción larga"
+    },
+    {
+     "l": "c",
+     "t": "Combinación de antimuscarínico y B₂ agonistas de corta duración"
+    },
+    {
+     "l": "d",
+     "t": "Monoterapia con B2 agonistas de larga duración"
+    }
+   ],
+   "correcta": [
+    "b",
+    "d"
+   ],
+   "explicacion": "La PUR aceptó dos opciones. En la EPOC de bajo riesgo el manejo broncodilatador inicial es con broncodilatador de acción larga: monoterapia (LABA o LAMA) o la combinación LABA + LAMA según GOLD 2025.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-041",
+   "anio": 2025,
+   "n": 41,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es el tratamiento que ha demostrado mejorar la sobrevida en la EPOC estable severa?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Broncodilatadores inhalados"
+    },
+    {
+     "l": "b",
+     "t": "Corticoides inhalados"
+    },
+    {
+     "l": "c",
+     "t": "Macrólidos v/o"
+    },
+    {
+     "l": "d",
+     "t": "Oxigenoterapia"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La oxigenoterapia crónica domiciliaria es el único tratamiento que ha demostrado mejorar la sobrevida en la EPOC estable severa con hipoxemia.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-042",
+   "anio": 2025,
+   "n": 42,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál de los siguientes estudios tiene mayor rentabilidad para el diagnóstico de la pleuresía tuberculosa?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Baciloscopías en expectoración"
+    },
+    {
+     "l": "b",
+     "t": "Cultivo del líquido pleural en Lowestein-Jensen"
+    },
+    {
+     "l": "c",
+     "t": "Adenosín desaminasa (ADA) en líquido pleural"
+    },
+    {
+     "l": "d",
+     "t": "Lactato deshidrogenasa (LDH) en líquido pleural"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El ADA (adenosín desaminasa) elevado en líquido pleural es el estudio de mayor rentabilidad para el diagnóstico de pleuresía tuberculosa.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-043",
+   "anio": 2025,
+   "n": 43,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Ante la sospecha clínica y radiológica de absceso pulmonar, ¿qué estudios solicitaría?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Fibrobroncoscopia con lavado bronquiolo-alveolar"
+    },
+    {
+     "l": "b",
+     "t": "Hemocultivos seriados"
+    },
+    {
+     "l": "c",
+     "t": "Tomografía de tórax + punción aspiración con aguja fina (PAAF)"
+    },
+    {
+     "l": "d",
+     "t": "Tomografía de tórax + cultivo de esputo"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Ante la sospecha de absceso pulmonar se solicita tomografía de tórax junto con cultivo de esputo para la confirmación y la orientación etiológica.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-044",
+   "anio": 2025,
+   "n": 44,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Varón, 35 años, fiebre y chuchos de frio de 15 días de evolución. Agrega dolor torácico tipo puntada en hemitórax derecho. Al examen: lúcido, febril, FR: 30 pm, FC: 110 cpm, síndrome en menos en hemitórax derecho. Se realiza toracocentesis: pH 7.3, proteínas 5.80 g/dL, LDH 1051 U/L, glucosa 0.88 g/L (88 mg/dL), abundantes polimorfonucleares. Glicemia 0.90 g/l.",
+   "pregunta": "¿Cuál sería su diagnóstico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Derrame pleural no complicado"
+    },
+    {
+     "l": "b",
+     "t": "Empiema pleural"
+    },
+    {
+     "l": "c",
+     "t": "Derrame pleural complicado"
+    },
+    {
+     "l": "d",
+     "t": "Empiema loculado"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "Un exudado paraneumónico con pH descendido y abundantes polimorfonucleares, sin pus macroscópico, corresponde a un derrame pleural complicado.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-045",
+   "anio": 2025,
+   "n": 45,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer, 50 años. Diabetes tipo 2 de 5 años de evolución, con mal control metabólico y orinas espumosas.",
+   "pregunta": "¿Con cuál de estos estudios realizaría la pesquisa de nefropatía diabética?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Ecografía de aparato urinario"
+    },
+    {
+     "l": "b",
+     "t": "Creatinina en sangre"
+    },
+    {
+     "l": "c",
+     "t": "Clearance de creatinina en orina"
+    },
+    {
+     "l": "d",
+     "t": "Cociente albuminuria creatininuria (Pru/Cru)"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La pesquisa de nefropatía diabética se realiza con el cociente albuminuria/creatininuria en orina.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-046",
+   "anio": 2025,
+   "n": 46,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cómo realizaría el seguimiento de la retinopatía diabética?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Evaluación oftalmológica con dilatación pupilar anual"
+    },
+    {
+     "l": "b",
+     "t": "Fondo de ojo cada 3 años"
+    },
+    {
+     "l": "c",
+     "t": "Ecografía ocular anual"
+    },
+    {
+     "l": "d",
+     "t": "Angiotomografia ocular cada 2 años"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El seguimiento de la retinopatía diabética se hace con evaluación oftalmológica (fondo de ojo) con dilatación pupilar, de forma anual.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-047",
+   "anio": 2025,
+   "n": 47,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Varón, 62 años, con accidente cerebrovascular isquémico de 2 horas de evolución. PA: 160/100 mmHg.",
+   "pregunta": "¿Cuál es la conducta terapéutica inicial?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Ácido acetil salicílico v/o"
+    },
+    {
+     "l": "b",
+     "t": "Alteplasa i/v"
+    },
+    {
+     "l": "c",
+     "t": "Trombectomía"
+    },
+    {
+     "l": "d",
+     "t": "Conducta expectante"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "En el ACV isquémico dentro de la ventana terapéutica (menos de 4,5 horas), el tratamiento es la trombólisis intravenosa con alteplasa.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-048",
+   "anio": 2025,
+   "n": 48,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Paciente con hemorragia cerebral espontánea, PA sistólica 210 mmHg.",
+   "pregunta": "¿Cuál es la cifra objetivo de presión arterial en este paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Mantener PA sistólica en 210 mmHg en fase aguda"
+    },
+    {
+     "l": "b",
+     "t": "Mantener PA sistólica 160-180 mmHg"
+    },
+    {
+     "l": "c",
+     "t": "Reducir solo si PA sistólica >220 mmHg"
+    },
+    {
+     "l": "d",
+     "t": "Reducir PA sistólica a <140 mmHg en la primera hora"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "En la hemorragia cerebral espontánea con presión arterial sistólica elevada se recomienda el descenso precoz a menos de 140 mmHg en la primera hora.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-049",
+   "anio": 2025,
+   "n": 49,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer, 40 años. Consulta por 4 meses de síndrome funcional anémico. Al examen se destaca palidez cutáneo-mucosa; uñas con estriación longitudinal. Laboratorio: Hb 8.1 g/dL; VCM 72 fL; CHCM 23; GB 8.500/mm²; Plaquetas 350.000/mm³, Reticulocitos 0,4%.",
+   "pregunta": "¿Qué déficit explica las alteraciones a nivel de las faneras?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Vitamina B12"
+    },
+    {
+     "l": "b",
+     "t": "Folato"
+    },
+    {
+     "l": "c",
+     "t": "Hierro"
+    },
+    {
+     "l": "d",
+     "t": "Vitamina D"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La afectación de las faneras (uñas con estriación longitudinal, coiloniquia) traduce déficit de hierro.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-050",
+   "anio": 2025,
+   "n": 50,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cómo clasifica esta anemia según el perfil hematimétrico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Microcítica hipocrómica, arregenerativa"
+    },
+    {
+     "l": "b",
+     "t": "Normocítica normocrómica, regenerativa"
+    },
+    {
+     "l": "c",
+     "t": "Normocítica normocrómica, arregenerativa"
+    },
+    {
+     "l": "d",
+     "t": "Microcítica hipocrómica, regenerativa"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "VCM bajo (microcítica), CHCM bajo (hipocrómica) y reticulocitos bajos (arregenerativa): es una anemia microcítica hipocrómica arregenerativa.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-051",
+   "anio": 2025,
+   "n": 51,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "De acuerdo con el perfil de la anemia, ¿cómo continuaría el estudio?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Electroforesis de hemoglobina"
+    },
+    {
+     "l": "b",
+     "t": "Metabolismo del hierro"
+    },
+    {
+     "l": "c",
+     "t": "Mielograma"
+    },
+    {
+     "l": "d",
+     "t": "Anticuerpos anti-transglutaminasa intestinal"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Ante una anemia microcítica hipocrómica arregenerativa, el estudio que continúa la valoración es el del metabolismo del hierro.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-052",
+   "anio": 2025,
+   "n": 52,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer, 52 años. Diabetes tipo 1. Consulta por lesión en miembro inferior derecho de 3 días de evolución y fiebre. Al examen confusa, Tax 38,5°C, deshidratada, aliento cetónico, polipnea profunda. Lesión eritematosa, dolorosa, de bordes mal definidos, con edema, que compromete la mitad de pierna derecha (~15 cm), sin úlceras ni supuración. FC 120 cpm, PA 120/70 mmHg. HGT: 350 mg/dL; gasometría venosa: pH 7.2; HCO3-13 mEq/L; BE-10.",
+   "pregunta": "¿Cuál es su diagnóstico clínico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Descontrol metabólico hiperglucémico"
+    },
+    {
+     "l": "b",
+     "t": "Estado hiperosmolar hiperglicémico no cetósico"
+    },
+    {
+     "l": "c",
+     "t": "Cetoacidosis diabética"
+    },
+    {
+     "l": "d",
+     "t": "Síndrome diabético precoz"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "Hiperglucemia, acidosis metabólica y cetosis (aliento cetónico) en una persona con diabetes configuran una cetoacidosis diabética.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-053",
+   "anio": 2025,
+   "n": 53,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es la infección que presenta esta paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Celulitis"
+    },
+    {
+     "l": "b",
+     "t": "Erisipela"
+    },
+    {
+     "l": "c",
+     "t": "Absceso"
+    },
+    {
+     "l": "d",
+     "t": "Fascitis necrotizante"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "La lesión eritematosa dolorosa de bordes mal definidos con edema corresponde a celulitis; la erisipela presenta bordes netos y sobreelevados.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-054",
+   "anio": 2025,
+   "n": 54,
+   "area": "Clínica Médica",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Con que suero iniciaría la fluidoterapia?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Suero bicarbonatado 1/6 molar"
+    },
+    {
+     "l": "b",
+     "t": "Suero fisiológico"
+    },
+    {
+     "l": "c",
+     "t": "Suero bicarbonatado 1 molar"
+    },
+    {
+     "l": "d",
+     "t": "Suero glucofisiológico"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "La fluidoterapia de la cetoacidosis diabética se inicia con suero fisiológico, un cristaloide isotónico, para reponer el déficit de volumen.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-055",
+   "anio": 2025,
+   "n": 55,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer de 37 años, se realiza una Colpocitologia oncológica (PAP) que informa H-SIL (lesión escamosa intraepitelial de alto grado).",
+   "pregunta": "¿Qué conducta adoptaría?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "PAP en 6 meses"
+    },
+    {
+     "l": "b",
+     "t": "Test de HPV"
+    },
+    {
+     "l": "c",
+     "t": "Colposcopía con biopsia"
+    },
+    {
+     "l": "d",
+     "t": "Escisión electroquirúrgica con asa (Cono LEEP)"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "Ante un PAP con H-SIL (lesión escamosa intraepitelial de alto grado) la conducta es realizar colposcopía con biopsia.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-056",
+   "anio": 2025,
+   "n": 56,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer de 17 años, sana que recibió una dosis de la vacuna de HPV a los 13 años.",
+   "pregunta": "Según las pautas del año 2024 del Ministerio de Salud Pública de Uruguay, ¿qué conducta adoptaría?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Recibir una dosis complementaria"
+    },
+    {
+     "l": "b",
+     "t": "Reiniciar esquema de vacunación"
+    },
+    {
+     "l": "c",
+     "t": "Completar esquema de 3 dosis"
+    },
+    {
+     "l": "d",
+     "t": "Por la edad se contraindica otra dosis"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "Según las pautas del MSP 2024, una adolescente que recibió una sola dosis de vacuna contra el HPV a los 13 años debe recibir una dosis complementaria.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-057",
+   "anio": 2025,
+   "n": 57,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer de 44 años, sin antecedentes personales ni familiares de cáncer de mama. Según las pautas del año 2024 del Ministerio de Salud Pública de Uruguay",
+   "pregunta": "¿Qué estudio le indicaría para la pesquisa del cáncer de mama?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Ningún estudio por ser menor de 50 años"
+    },
+    {
+     "l": "b",
+     "t": "Mamografía anual"
+    },
+    {
+     "l": "c",
+     "t": "Mamografía cada 2 años"
+    },
+    {
+     "l": "d",
+     "t": "Ecografía mamaria anual"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Según las pautas del MSP 2024, en una mujer de 44 años sin antecedentes la pesquisa de cáncer de mama se realiza con mamografía anual.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-058",
+   "anio": 2025,
+   "n": 58,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer de 47 años, menometrorragia de 3 años de evolución. Refiere sensación de pesadez en hipogastrio y polaquiuria. Al examen genital se destaca cuello posterior de 3 cm de longitud cerrado y una tumoración centro pélvica irregular de 10 cm con maniobra de Halban positiva.",
+   "pregunta": "¿Cuál es su diagnóstico clínico presuntivo?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Miomatosis uterina"
+    },
+    {
+     "l": "b",
+     "t": "Hiperplasia endometrial"
+    },
+    {
+     "l": "c",
+     "t": "Metrorragia disfuncional"
+    },
+    {
+     "l": "d",
+     "t": "Quiste de ovario"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "Una tumoración centropélvica irregular con maniobra de Halban positiva (se moviliza junto con el cuello) en una mujer con menometrorragia orienta a miomatosis uterina.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-059",
+   "anio": 2025,
+   "n": 59,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Qué estudio solicitaría para apoyar su planteo diagnóstico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Tomografía de abdomen y pelvis"
+    },
+    {
+     "l": "b",
+     "t": "Histeroscopia"
+    },
+    {
+     "l": "c",
+     "t": "Ecografía transvaginal"
+    },
+    {
+     "l": "d",
+     "t": "Colposcopia"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La ecografía transvaginal es el estudio de primera línea para apoyar el diagnóstico de miomatosis uterina.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-060",
+   "anio": 2025,
+   "n": 60,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es la causa más frecuente de metrorragia de la post menopausia?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Atrofia endometrial"
+    },
+    {
+     "l": "b",
+     "t": "Metrorragia disfuncional"
+    },
+    {
+     "l": "c",
+     "t": "Cáncer de endometrio"
+    },
+    {
+     "l": "d",
+     "t": "Miomatosis uterina"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "La atrofia endometrial es la causa más frecuente de metrorragia de la posmenopausia.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-061",
+   "anio": 2025,
+   "n": 61,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿A qué edad gestacional solicitaría la ecografía para valorar la translucencia nucal en el control de embarazo?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Antes de las 10 semanas"
+    },
+    {
+     "l": "b",
+     "t": "Desde las 11 a 14 semanas"
+    },
+    {
+     "l": "c",
+     "t": "Desde las 15 a las 19 semanas"
+    },
+    {
+     "l": "d",
+     "t": "Desde las 20 a 24 semanas"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "La ecografía para valorar la translucencia nucal se realiza entre las 11 y 14 semanas de gestación.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-062",
+   "anio": 2025,
+   "n": 62,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer de 20 años, 1 aborto previo, portadora de DIU, consulta por dolor abdominal y fiebre de 38.5° C. FUM hace 15 días. Al examen: dolor a la palpación profunda de hipogastrio sin elementos de irritación peritoneal. Cuello uterino eritematoso con flujo verdoso. Dolor a la movilización del cuello y a la palpación bimanual del útero. No se palpan tumoraciones anexiales.",
+   "pregunta": "¿Cuál es su diagnóstico clínico presuntivo?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Aborto incompleto infectado"
+    },
+    {
+     "l": "b",
+     "t": "Infección genital baja"
+    },
+    {
+     "l": "c",
+     "t": "Enfermedad inflamatoria pélvica"
+    },
+    {
+     "l": "d",
+     "t": "Bartolinitis aguda supurada"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "Dolor a la movilización del cuello y a la palpación uterina, con flujo y fiebre en una portadora de DIU, configuran una enfermedad inflamatoria pélvica.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-063",
+   "anio": 2025,
+   "n": 63,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "A esta paciente se le realizan estudios de sangre donde se destaca GB 18000 mm³y el resto normal.",
+   "pregunta": "¿Cuál sería su conducta?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Laparoscopia de urgencia"
+    },
+    {
+     "l": "b",
+     "t": "Internación con antibioticoterapia intravenosa"
+    },
+    {
+     "l": "c",
+     "t": "Legrado aspirativo"
+    },
+    {
+     "l": "d",
+     "t": "Manejo ambulatorio con antibioticoterapia vía oral"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Con leucocitosis marcada (enfermedad inflamatoria pélvica moderada a grave), la conducta es la internación con antibioticoterapia intravenosa.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-064",
+   "anio": 2025,
+   "n": 64,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es el incremento de peso deseado desde las 11 semanas del embarazo al término en una paciente con IMC mayor o igual a 32?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "5 a 7 kg"
+    },
+    {
+     "l": "b",
+     "t": "8 a 10 kg"
+    },
+    {
+     "l": "c",
+     "t": "11 a 13 kg"
+    },
+    {
+     "l": "d",
+     "t": "14 a 18 kg"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "En una embarazada con IMC mayor o igual a 32 (obesidad), el incremento de peso recomendado desde las 11 semanas al término es de 5 a 7 kg.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-065",
+   "anio": 2025,
+   "n": 65,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es la causa más frecuente de aborto espontaneo en el primer trimestre de gestación?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Incompetencia cérvico-Ístmica"
+    },
+    {
+     "l": "b",
+     "t": "Insuficiencia del cuerpo lúteo"
+    },
+    {
+     "l": "c",
+     "t": "Cromosomopatías embrionarias"
+    },
+    {
+     "l": "d",
+     "t": "Trombofilia adquirida"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "Las cromosomopatías embrionarias son la causa más frecuente de aborto espontáneo del primer trimestre.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-066",
+   "anio": 2025,
+   "n": 66,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer de 35 años, sana, retraso menstrual de 7 semanas, consulta por fiebre y genitorragia amarronada de 5 días de evolución. Al examen: hipocoloración de piel y mucosas, Tax 37.7°C, FC 80 cpm, dolor leve a la palpación de hipogastrio, cuello permeable en toda su extensión con restos intracavitarios fétidos.",
+   "pregunta": "¿Cuál es su diagnóstico clínico más probable?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Aborto en curso"
+    },
+    {
+     "l": "b",
+     "t": "Enfermedad inflamatoria pélvica"
+    },
+    {
+     "l": "c",
+     "t": "Aborto incompleto infectado"
+    },
+    {
+     "l": "d",
+     "t": "Endometritis puerperal"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "Retraso menstrual, fiebre, genitorragia y restos intracavitarios fétidos con cuello permeable configuran un aborto incompleto infectado.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-067",
+   "anio": 2025,
+   "n": 67,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Se comienza antibioticoterapia intravenosa, ¿qué otra medida adoptaría?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Misoprostol"
+    },
+    {
+     "l": "b",
+     "t": "Oxitocina"
+    },
+    {
+     "l": "c",
+     "t": "Laparoscopía"
+    },
+    {
+     "l": "d",
+     "t": "Legrado evacuador complementario"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Tras iniciar la antibioticoterapia, en el aborto incompleto infectado se realiza el legrado evacuador complementario para retirar los restos.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-068",
+   "anio": 2025,
+   "n": 68,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Según las pautas del Ministerio de Salud Pública 2013, ¿cuál es el tratamiento farmacológico inicial recomendado en la interrupción voluntaria del embarazo (IVE)?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Misoprostol"
+    },
+    {
+     "l": "b",
+     "t": "Mifepristona seguido de misoprostol"
+    },
+    {
+     "l": "c",
+     "t": "Oxitocina"
+    },
+    {
+     "l": "d",
+     "t": "Metilergonovina seguido de misoprostol"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Según las pautas del MSP 2013, el tratamiento farmacológico inicial de la interrupción voluntaria del embarazo es mifepristona seguida de misoprostol.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-069",
+   "anio": 2025,
+   "n": 69,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Según las recomendaciones del Ministerio de Salud Pública 2024 ¿cuál es el momento oportuno para indicar antibióticos al detectarse Streptococcus Agalactiae en el exudado Vagino - rectal realizado a las 35 semanas de embarazo para prevenir la sepsis neonatal?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "En el control obstétrico de las 37 semanas"
+    },
+    {
+     "l": "b",
+     "t": "En el puerperio inmediato"
+    },
+    {
+     "l": "c",
+     "t": "Al momento de recibir el resultado"
+    },
+    {
+     "l": "d",
+     "t": "Al inicio del trabajo de parto"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Según el MSP 2024, ante Streptococcus agalactiae positivo en el exudado vagino-rectal, los antibióticos se administran al inicio del trabajo de parto, como profilaxis intraparto.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-070",
+   "anio": 2025,
+   "n": 70,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿En qué casos solicitaría una prueba de tolerancia oral a la glucosa (PTOG) en forma precoz (antes de las 24 semanas)?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Glicemia en ayuno en el primer trimestre mayor de 0,92 g/dL"
+    },
+    {
+     "l": "b",
+     "t": "Antecedente de hijo macrosómico"
+    },
+    {
+     "l": "c",
+     "t": "Antecedentes de HDL mayor de 35 mg/dL"
+    },
+    {
+     "l": "d",
+     "t": "Edad mayor a 40 años."
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "El antecedente de hijo macrosómico es una indicación de realizar la prueba de tolerancia oral a la glucosa de forma precoz, antes de las 24 semanas.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-071",
+   "anio": 2025,
+   "n": 71,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Cuál de los siguientes microorganismos se asocia con mayor frecuencia al daño tubárico, predisponiendo al embarazo ectópico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Gardnerella Vaginalis"
+    },
+    {
+     "l": "b",
+     "t": "Streptococcus Agalactiae"
+    },
+    {
+     "l": "c",
+     "t": "Escherichia coli"
+    },
+    {
+     "l": "d",
+     "t": "Neisseria gonorrhoeae"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Neisseria gonorrhoeae es el microorganismo que con mayor frecuencia produce daño tubárico y predispone al embarazo ectópico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-072",
+   "anio": 2025,
+   "n": 72,
+   "area": "Ginecotocología",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer 30 años, sana, cursando 32 semanas de embarazo, con cifras de PA hasta 145/90 mmHg, sin proteinuria ni síntomas acompañantes.",
+   "pregunta": "¿Qué diagnóstico clínico plantea?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Preeclampsia sin criterios de severidad"
+    },
+    {
+     "l": "b",
+     "t": "Hipertensión gestacional"
+    },
+    {
+     "l": "c",
+     "t": "Hipertensión crónica"
+    },
+    {
+     "l": "d",
+     "t": "Cifras de presión arterial (PA) adecuadas para la edad gestacional"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Cifras de presión arterial de hasta 145/90 mmHg después de las 20 semanas, sin proteinuria ni síntomas, definen la hipertensión gestacional.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-073",
+   "anio": 2025,
+   "n": 73,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Varón 40 años, tabaquista, sin otros antecedentes personales a destacar. Consulta por pirosis y regurgitaciones al menos tres veces por semana durante los últimos dos meses. Ha intentado cambios en la dieta sin mejoría. Niega haber tenido disfagia, pérdida de peso o sangrado.",
+   "pregunta": "¿Qué diagnóstico realiza?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Gastritis aguda"
+    },
+    {
+     "l": "b",
+     "t": "Esofagitis por reflujo"
+    },
+    {
+     "l": "c",
+     "t": "Dispepsia funcional"
+    },
+    {
+     "l": "d",
+     "t": "Reflujo gastroesofágico"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Pirosis y regurgitaciones más de tres veces por semana, sin signos de alarma, corresponden al reflujo gastroesofágico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-074",
+   "anio": 2025,
+   "n": 74,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál es la conducta terapéutica para las próximas 4 semanas?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Dieta antirreflujo exclusiva"
+    },
+    {
+     "l": "b",
+     "t": "Inhibidores de la bomba de protones"
+    },
+    {
+     "l": "c",
+     "t": "Proquinéticos"
+    },
+    {
+     "l": "d",
+     "t": "Sales de bismuto"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "El tratamiento de la enfermedad por reflujo para las próximas 4 semanas son los inhibidores de la bomba de protones.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-075",
+   "anio": 2025,
+   "n": 75,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "El paciente vuelve a la consulta un mes después refiriendo persistencia de síntomas y agregando disfagia.",
+   "pregunta": "¿Qué estudio solicitaría en esta oportunidad?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Cápsula endoscópica"
+    },
+    {
+     "l": "b",
+     "t": "pHmetria"
+    },
+    {
+     "l": "c",
+     "t": "Esofagogastroduodenoscopia"
+    },
+    {
+     "l": "d",
+     "t": "Esofagogastroduodeno con doble contraste"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La aparición de disfagia, un signo de alarma, obliga a solicitar una esofagogastroduodenoscopia (endoscopía digestiva alta).",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-076",
+   "anio": 2025,
+   "n": 76,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer 34 años. Vive con su pareja y 6 hijos en asentamiento. Ama de casa. Motivo de Consulta: Deposiciones blandas Presenta hace 2 meses materias liquidas o pastosas 3 a 4 veces por día. Dolor abdominal difuso que alivia con la defecación, distensión abdominal, urgencia defecatoria. No adelgazamiento, no enterorragia. Niega antecedentes personales a destacar. No antecedentes familiares de cáncer de colon. Al examen, normocoloreada, bien hidratada y perfundida. Abdomen blando, sin tumoraciones, dolor a la palpación profunda de marco cólico.",
+   "pregunta": "¿Cuál sería su diagnóstico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Diarrea crónica"
+    },
+    {
+     "l": "b",
+     "t": "Intolerancia a la lactosa"
+    },
+    {
+     "l": "c",
+     "t": "Síndrome de intestino irritable"
+    },
+    {
+     "l": "d",
+     "t": "Diarrea de probable etiología orgánica"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "Una diarrea de más de 4 semanas de evolución se define como diarrea crónica; ese es el diagnóstico sindromático inicial, antes de etiquetar la causa.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-077",
+   "anio": 2025,
+   "n": 77,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál de los siguientes estudios solicitaría en esta consulta?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Reactantes de fase aguda"
+    },
+    {
+     "l": "b",
+     "t": "Ecografía de abdomen"
+    },
+    {
+     "l": "c",
+     "t": "Rectosigmoidoscopia"
+    },
+    {
+     "l": "d",
+     "t": "Colon por enema"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "En el estudio inicial de una diarrea crónica se solicitan reactantes de fase aguda para orientar entre una causa orgánica y una funcional.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-078",
+   "anio": 2025,
+   "n": 78,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Siguiendo con la consulta de la paciente, la médica tratante sospecha violencia doméstica. A solas, la paciente se pone a llorar y dice que su esposo perdió el trabajo hace unos meses, consume más alcohol y ha estado más agresivo con ella y los niños.",
+   "pregunta": "¿Cuál sería su conducta en esta consulta?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Derivación urgente al equipo de violencia doméstica"
+    },
+    {
+     "l": "b",
+     "t": "Ayudarla a encontrar respaldo social, físico y emocional"
+    },
+    {
+     "l": "c",
+     "t": "Guiarla para que ella haga la denuncia cuanto antes"
+    },
+    {
+     "l": "d",
+     "t": "Proponer que el equipo de violencia de la policlínica haga la denuncia"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Ante la sospecha de violencia doméstica, la conducta en la consulta es acompañar a la paciente y ayudarla a encontrar respaldo social, físico y emocional, respetando sus tiempos.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-079",
+   "anio": 2025,
+   "n": 79,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "El médico decide indagar para ver si la paciente se encuentra ante una situación de alto riesgo de violencia con riesgo de vida.",
+   "pregunta": "¿Cuál de los siguientes es un indicador de alto riesgo según la guía del Ministerio de Salud Pública?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Necesidades básicas insatisfechas"
+    },
+    {
+     "l": "b",
+     "t": "Antecedentes de denuncias previas"
+    },
+    {
+     "l": "c",
+     "t": "Tener 6 hijos y condiciones de hacinamiento"
+    },
+    {
+     "l": "d",
+     "t": "Antecedentes familiares de violencia en el agresor"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Según la guía del MSP, el antecedente de denuncias previas es un indicador de alto riesgo de violencia con riesgo de vida.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-080",
+   "anio": 2025,
+   "n": 80,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Mujer, 65 años. Consulta en policlínica por dolor de manos. Presenta hace varios meses dolor en las articulaciones metacarpofalángicas de ambas manos. Se acompaña de rigidez matinal. Niega antecedentes traumáticos o infecciosos recientes. Al examen se constata tumefacción, calor y dolor a la palpación en las articulaciones mencionadas.",
+   "pregunta": "¿Cuál de los siguientes datos nos orienta a una etiología inflamatoria de este dolor?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Deformidad de articulaciones metacarpofalángicas"
+    },
+    {
+     "l": "b",
+     "t": "Edema blanco que deja Godet"
+    },
+    {
+     "l": "c",
+     "t": "Dolor con todos los movimientos de las articulaciones"
+    },
+    {
+     "l": "d",
+     "t": "Calor local y tumefacción de articulaciones"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "El calor local y la tumefacción articular orientan a una etiología inflamatoria del dolor.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-081",
+   "anio": 2025,
+   "n": 81,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál de las siguientes pruebas de laboratorio solicitaría en este momento asistencial?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Anticuerpos antinucleares y VES"
+    },
+    {
+     "l": "b",
+     "t": "Dosificación de vitamina D y Calcemia"
+    },
+    {
+     "l": "c",
+     "t": "Fosfatemia y Calcemia"
+    },
+    {
+     "l": "d",
+     "t": "Dosificación de vitamina D y Hemograma"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "Ante la sospecha de artritis inflamatoria se solicitan anticuerpos antinucleares y velocidad de eritrosedimentación (VES).",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-082",
+   "anio": 2025,
+   "n": 82,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Peón rural, 60 años, antecedentes personales de diabetes tipo 2 en tratamiento con metformina, hipertensión arterial en tratamiento con dieta hiposódica y enalapril y cardiopatía isquémica con colocación de 2 stents hace 5 años. Concurre a policlínica para control. Actualmente asintomático, trae valores de Hemoglobina glicosilada (HbA1c) 7,5%. PA en la consulta 160/100mmhg (cifras promedio).",
+   "pregunta": "¿Cuál es la cifra objetivo de HbA1c para el control de la diabetes en este paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Menor a 6%"
+    },
+    {
+     "l": "b",
+     "t": "Entre 6 y 6,9%"
+    },
+    {
+     "l": "c",
+     "t": "Entre 7 y 8%"
+    },
+    {
+     "l": "d",
+     "t": "Mayor a 8%"
+    }
+   ],
+   "correcta": [
+    "b",
+    "c"
+   ],
+   "explicacion": "La PUR aceptó dos opciones. En un paciente con cardiopatía isquémica y comorbilidades el objetivo de HbA1c se individualiza con un control menos estricto, entre 6-6,9% o 7-8%.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-083",
+   "anio": 2025,
+   "n": 83,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "En relación al tratamiento farmacológico de la hipertensión arterial en este paciente, ¿cuál sería su conducta?:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Mantener monoterapia con enalapril"
+    },
+    {
+     "l": "b",
+     "t": "Agregar bisoprolol"
+    },
+    {
+     "l": "c",
+     "t": "Cambiar enalapril por hidroclorotiazida"
+    },
+    {
+     "l": "d",
+     "t": "Agregar losartan"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Ante una hipertensión no controlada con enalapril, en un paciente con cardiopatía isquémica es adecuado agregar un betabloqueante como bisoprolol.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-084",
+   "anio": 2025,
+   "n": 84,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cómo cataloga el Riesgo Cardiovascular en este paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Bajo"
+    },
+    {
+     "l": "b",
+     "t": "Moderado"
+    },
+    {
+     "l": "c",
+     "t": "Alto"
+    },
+    {
+     "l": "d",
+     "t": "Muy alto"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Un paciente con diabetes, hipertensión y cardiopatía isquémica establecida tiene riesgo cardiovascular muy alto.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-085",
+   "anio": 2025,
+   "n": 85,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Usuaria de 28 años, estudiante universitaria, concurre asintomática con resultado de Test Venereal Disease Research Laboratory (VDRL) 1/8. No presenta antecedentes a destacar, tiene carnet de salud con VDRL negativo hace 6 meses. Refiere pareja estable con quien tiene relaciones sin uso de preservativo, él se realizó el test VDRL hace 5 días siendo no reactivo.",
+   "pregunta": "¿Cuál de las siguientes pruebas diagnósticas aplicaría?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Repetir VDRL a la pareja"
+    },
+    {
+     "l": "b",
+     "t": "Prueba rápida para sífilis a la paciente"
+    },
+    {
+     "l": "c",
+     "t": "Rapid Plasma Reagin (RPR) a la paciente en 1 mes"
+    },
+    {
+     "l": "d",
+     "t": "Visualización de treponemas en sangre periférica de la pareja"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Ante un VDRL reactivo 1/8 en una paciente asintomática, se aplica una prueba treponémica (prueba rápida para sífilis) para confirmar el diagnóstico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-086",
+   "anio": 2025,
+   "n": 86,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál sería su conducta de elección en cuanto al tratamiento farmacológico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Doxiciclina"
+    },
+    {
+     "l": "b",
+     "t": "penicilina benzatínica"
+    },
+    {
+     "l": "c",
+     "t": "penicilina cristalina"
+    },
+    {
+     "l": "d",
+     "t": "amoxicilina"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "El tratamiento de elección de la sífilis es la penicilina benzatínica.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-087",
+   "anio": 2025,
+   "n": 87,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cómo realizaría el seguimiento de esta paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Al mes y 12 meses con pruebas treponémicas"
+    },
+    {
+     "l": "b",
+     "t": "Al mes y 12 meses con pruebas no treponémicas"
+    },
+    {
+     "l": "c",
+     "t": "A los 3, 6 y 12 meses con pruebas no treponémicas"
+    },
+    {
+     "l": "d",
+     "t": "A los 3, 6 y 12 meses con pruebas treponémicas"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El seguimiento serológico postratamiento de la sífilis se realiza con pruebas no treponémicas a los 3, 6 y 12 meses.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-088",
+   "anio": 2025,
+   "n": 88,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Luego de realizar tratamiento a esta paciente y dependiendo del valor de los títulos, ¿cuándo derivaría a infectólogo?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Descenso no significativo luego de 1 mes de tratamiento"
+    },
+    {
+     "l": "b",
+     "t": "Descenso no significativo luego de 3 meses de tratamiento"
+    },
+    {
+     "l": "c",
+     "t": "Descenso no significativo luego de 6 meses de tratamiento"
+    },
+    {
+     "l": "d",
+     "t": "Independientemente del valor"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "Se deriva al infectólogo cuando no hay un descenso significativo de los títulos luego de 6 meses de tratamiento, situación que sugiere falla terapéutica.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-089",
+   "anio": 2025,
+   "n": 89,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "Según la guía del Ministerio de Salud Pública 2024 ¿cómo se realiza la profilaxis para sífilis en las primeras 72 horas post exposición sexual?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Ceftriaxona i/m única dosis"
+    },
+    {
+     "l": "b",
+     "t": "Doxicilina v/o única dosis"
+    },
+    {
+     "l": "c",
+     "t": "Azitromicina v/o única dosis"
+    },
+    {
+     "l": "d",
+     "t": "Penicilina cristalina i/v única dosis"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Según la guía del MSP 2024, la profilaxis postexposición de sífilis en las primeras 72 horas se realiza con doxiciclina vía oral en dosis única.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-090",
+   "anio": 2025,
+   "n": 90,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Con cuál de los siguientes fármacos iniciaría el tratamiento al diagnosticar una diabetes tipo 2 en un paciente metabólicamente estable?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Semaglutida"
+    },
+    {
+     "l": "b",
+     "t": "Glibenclamida"
+    },
+    {
+     "l": "c",
+     "t": "Empagliflozina"
+    },
+    {
+     "l": "d",
+     "t": "Metformina"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "En un paciente con diabetes tipo 2 metabólicamente estable, el fármaco con que se inicia el tratamiento es la metformina.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-091",
+   "anio": 2025,
+   "n": 91,
+   "area": "Bioética",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "La correcta evaluación de la competencia es un aspecto ético relevante que trae como consecuencia la participación del paciente en las decisiones sobre su salud o su protección en los casos en que no se verifiquen las condiciones para el ejercicio de su autonomía.",
+   "pregunta": "Ante ello, ¿Qué advierte el enfoque bioético social y crítico al momento de evaluar la competencia?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Considerar el contexto social e histórico en el que se construyen los valores y preferencias que se"
+    },
+    {
+     "l": "b",
+     "t": "Considerar las condiciones contextuales que determinan al sujeto paciente es una tarea que excede la"
+    },
+    {
+     "l": "c",
+     "t": "Generar y aplicar criterios universales para la evaluación es efectivo y éticamente correcto porque asegura la"
+    },
+    {
+     "l": "d",
+     "t": "La relación clínica en una sociedad medicalizada y dominada por intereses económicos determina que deba"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El enfoque bioético social y crítico advierte que debe considerarse el contexto social e histórico en el que se construyen los valores y preferencias del paciente al evaluar su competencia.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-092",
+   "anio": 2025,
+   "n": 92,
+   "area": "Bioética",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "ser evaluada exclusivamente en sus aspectos cognitivos Considere la situación donde un médico que asiste a un paciente con dengue accede al pedido del paciente de no informar a la autoridad sanitaria sobre su diagnóstico.",
+   "pregunta": "¿Por qué la decisión es éticamente incorrecta?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Porque no evalúa la competencia del paciente en ese momento para tomar la decisión"
+    },
+    {
+     "l": "b",
+     "t": "Porque la confidencialidad es una regla prima facie y el interés público puede justificar excepciones"
+    },
+    {
+     "l": "c",
+     "t": "Porque los datos de la historia clínica en este caso son propiedad de la Institución médica"
+    },
+    {
+     "l": "d",
+     "t": "Porque la privacidad es un principio prima facie y el interés público puede justificar excepciones"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "La decisión es incorrecta porque la confidencialidad es una regla prima facie: el interés público, como la notificación obligatoria del dengue, justifica una excepción.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-093",
+   "anio": 2025,
+   "n": 93,
+   "area": "Bioética",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "La aparición de nuevas tecnologías y su aplicación en la clínica genera debates bioéticos. Son particularmente desafiantes aquellos que surgen como respuesta a lo que se considera, para algunos, una excesiva medicalización y tecnificación de los procesos de fin de vida.",
+   "pregunta": "¿Cuál de las siguientes opciones surge más directamente en respuesta a la preocupación mencionada?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "La eutanasia"
+    },
+    {
+     "l": "b",
+     "t": "El suicidio medicamente asistido"
+    },
+    {
+     "l": "c",
+     "t": "Las voluntades anticipadas"
+    },
+    {
+     "l": "d",
+     "t": "La adecuación de los esfuerzos terapéuticos"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La adecuación del esfuerzo terapéutico surge como respuesta directa a la preocupación por la excesiva medicalización y tecnificación de los procesos de fin de vida.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-094",
+   "anio": 2025,
+   "n": 94,
+   "area": "Psiquiatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Paciente de 56 años, sexo masculino, con consumo crónico de alcohol. Es traído a emergencia por confusión, marcha inestable y visión borrosa. Se constata nistagmo horizontal, ataxia y desorientación. Ionograma y Glicemia sin alteraciones.",
+   "pregunta": "¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Síndrome de Marchiafava-Bignami"
+    },
+    {
+     "l": "b",
+     "t": "Encefalopatía de Wernicke"
+    },
+    {
+     "l": "c",
+     "t": "Síndrome de Korsakoff"
+    },
+    {
+     "l": "d",
+     "t": "Encefalopatía de Leigh"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Confusión, ataxia y nistagmo en un paciente con consumo crónico de alcohol configuran la encefalopatía de Wernicke.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-095",
+   "anio": 2025,
+   "n": 95,
+   "area": "Psiquiatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "¿Cuál de las siguientes vitaminas por vía parenteral indicaría en este paciente de forma inmediata?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Tiamina"
+    },
+    {
+     "l": "b",
+     "t": "Cianocobalamina"
+    },
+    {
+     "l": "c",
+     "t": "Piridoxina"
+    },
+    {
+     "l": "d",
+     "t": "Niacina"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El tratamiento inmediato de la encefalopatía de Wernicke es la tiamina (vitamina B1) parenteral, que debe administrarse antes del aporte de glucosa.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-096",
+   "anio": 2025,
+   "n": 96,
+   "area": "Psiquiatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Paciente de 40 años, diagnóstico de esquizofrenia, tratado con haloperidol 15 mg/día. Consulta por fiebre (39°C), rigidez generalizada, taquicardia y estupor. CPK: 2200U/L.",
+   "pregunta": "¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Catatonía maligna"
+    },
+    {
+     "l": "b",
+     "t": "Síndrome neuroléptico maligno"
+    },
+    {
+     "l": "c",
+     "t": "Distonía aguda"
+    },
+    {
+     "l": "d",
+     "t": "Síndrome serotoninérgico"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Fiebre, rigidez generalizada, disautonomía y CPK elevada en un paciente que recibe neurolépticos configuran el síndrome neuroléptico maligno.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-097",
+   "anio": 2025,
+   "n": 97,
+   "area": "Psiquiatría",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Paciente de 38 años, diagnóstico de esquizofrenia desde los 20 años. Se encuentra en tratamiento con olanzapina 10 mg/día. En las últimas 48 horas presenta mutismo, rigidez, negativismo y posturas mantenidas.",
+   "pregunta": "¿Cuál es el síndrome más probable?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Síndrome extrapiramidal"
+    },
+    {
+     "l": "b",
+     "t": "Síndrome catatónico"
+    },
+    {
+     "l": "c",
+     "t": "Síndrome neuroléptico maligno"
+    },
+    {
+     "l": "d",
+     "t": "Síndrome confusional"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Mutismo, rigidez, negativismo y posturas mantenidas configuran un síndrome catatónico.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-098",
+   "anio": 2025,
+   "n": 98,
+   "area": "Medicina Legal",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "Un paciente de 82 años, con antecedentes personales de diabetes insulino requirente, fue embestido por un automóvil y resultó politraumatizado, con: traumatismo encéfalo-craneano con pérdida fugaz de conocimiento y tomografía de cráneo normal, doble fractura expuesta de pierna derecha y erosiones extensas en la frente y los cuatro miembros. Fue operado de urgencia para limpieza quirúrgica, reducción de la fractura y fijación interna con enclavijado endomedular. Inicialmente tuvo una buena evolución traumatológica, pero se pospuso el alta por descontrol metabólico. A la semana del al-ta traumatológica, estando en sala de cuidados moderados, instaló un cuadro de opresión torácica, disnea e hipotensión. Se hizo diagnóstico de tromboembolismo pulmonar sin respuesta al tratamiento; evolucionó a la bradicardia y paro cardio respiratorio refractario a las maniobras de reanimación avanzada por médico intensivista, por lo que se constató el fallecimiento.",
+   "pregunta": "¿Qué medico tiene la obligación de expedir el certificado de defunción?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "El traumatólogo"
+    },
+    {
+     "l": "b",
+     "t": "El intensivista"
+    },
+    {
+     "l": "c",
+     "t": "El internista de piso"
+    },
+    {
+     "l": "d",
+     "t": "El médico forense"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Por tratarse de una muerte vinculada a un siniestro de tránsito (causa violenta o no natural), el certificado de defunción corresponde al médico forense.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-099",
+   "anio": 2025,
+   "n": 99,
+   "area": "Medicina Legal",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "En el caso anterior, y asumiendo como certeros los diagnósticos del equipo asistencial, ¿cuál es la causa directa de muerte?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Siniestro de tránsito"
+    },
+    {
+     "l": "b",
+     "t": "Fractura expuesta"
+    },
+    {
+     "l": "c",
+     "t": "Diabetes mellitus"
+    },
+    {
+     "l": "d",
+     "t": "Tromboembolia pulmonar"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Asumiendo certeros los diagnósticos del equipo asistencial, la causa directa de muerte es la tromboembolia pulmonar, mecanismo final del fallecimiento.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-100",
+   "anio": 2025,
+   "n": 100,
+   "area": "Medicina Legal",
+   "desempate": false,
+   "puntos": 1,
+   "caso": "",
+   "pregunta": "El consentimiento informado en la práctica clínica:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "No aplica a los usuarios de los servicios de salud mental en etapa aguda"
+    },
+    {
+     "l": "b",
+     "t": "No tiene validez legal si es otorgado por personas menores de 18 años"
+    },
+    {
+     "l": "c",
+     "t": "No requiere necesariamente la firma del paciente o su representante legal"
+    },
+    {
+     "l": "d",
+     "t": "No admite excepciones como requisito legal para practicar el acto médico"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El consentimiento informado no requiere necesariamente la firma del paciente o su representante legal; puede ser verbal, salvo las situaciones que la normativa exige por escrito.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-101",
+   "anio": 2025,
+   "n": 101,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": true,
+   "puntos": 4,
+   "caso": "",
+   "pregunta": "¿En cuál de estas situaciones indicaría el Antígeno Prostático Específico (PSA) para el tamizaje de cáncer de próstata en un varón asintomático?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Edad mayor de 45 años con antecedentes familiares de 1er grado"
+    },
+    {
+     "l": "b",
+     "t": "Edad mayor de 40 años y raza blanca"
+    },
+    {
+     "l": "c",
+     "t": "Edad mayor a 70 años con tacto rectal normal"
+    },
+    {
+     "l": "d",
+     "t": "Edad mayor a 50 años y raza asiática"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El PSA para tamizaje de cáncer de próstata en un varón asintomático se indica desde los 45 años cuando hay antecedentes familiares de primer grado.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-102",
+   "anio": 2025,
+   "n": 102,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": true,
+   "puntos": 5,
+   "caso": "10 años, asiste a control con su médico tratante. Durante la medición de agudeza visual se detecta una visión de 5/10 en el ojo derecho y 10/10 en el ojo izquierdo.",
+   "pregunta": "¿Qué patología ocular podría prevenirse mediante este examen?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Ambliopía"
+    },
+    {
+     "l": "b",
+     "t": "Glaucoma congénito"
+    },
+    {
+     "l": "c",
+     "t": "Catarata congénita"
+    },
+    {
+     "l": "d",
+     "t": "Queratitis"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "La medición de la agudeza visual en la infancia permite detectar y prevenir la ambliopía (el llamado ojo vago).",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-103",
+   "anio": 2025,
+   "n": 103,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": true,
+   "puntos": 2,
+   "caso": "Varón de 50 años, trabaja en oficina. Presenta dolor lumbar que inició hace 8 meses, con predominio en la tarde",
+   "pregunta": "¿Qué orienta a una etiología inflamatoria?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "El comienzo del dolor hace 8 meses"
+    },
+    {
+     "l": "b",
+     "t": "La edad del paciente mayor a 30 años"
+    },
+    {
+     "l": "c",
+     "t": "Dolor con componente nocturno"
+    },
+    {
+     "l": "d",
+     "t": "La presencia de estrés laboral"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El dolor lumbar con componente nocturno orienta a una etiología inflamatoria.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-104",
+   "anio": 2025,
+   "n": 104,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": true,
+   "puntos": 2,
+   "caso": "",
+   "pregunta": "¿Cuál de los siguientes hallazgos en un paciente con ojo rojo unilateral de inicio agudo, representa un signo de alarma de consulta urgente con oftalmólogo?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Disminución de la agudeza visual"
+    },
+    {
+     "l": "b",
+     "t": "Quemosis conjuntival"
+    },
+    {
+     "l": "c",
+     "t": "Sensación de cuerpo extraño"
+    },
+    {
+     "l": "d",
+     "t": "Secreción mucopurulenta"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "La disminución de la agudeza visual en un ojo rojo agudo unilateral es un signo de alarma que obliga a la consulta urgente con oftalmólogo.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-105",
+   "anio": 2025,
+   "n": 105,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": true,
+   "puntos": 4,
+   "caso": "Según el modelo de Prochaska y Di Clemente y las estrategias de intervención en tabaquismo.",
+   "pregunta": "¿Cuál es el enfoque adecuado para un paciente tabaquista clasificado como preparable / en etapa de contemplación?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Iniciar tratamiento farmacológico"
+    },
+    {
+     "l": "b",
+     "t": "Derivar a una unidad especializada en tabaquismo."
+    },
+    {
+     "l": "c",
+     "t": "Fortalecer la motivación del paciente para el cambio"
+    },
+    {
+     "l": "d",
+     "t": "Realizar seguimiento a mediano-largo plazo"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "En un paciente tabaquista en etapa de contemplación, el enfoque adecuado es fortalecer su motivación para el cambio.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-106",
+   "anio": 2025,
+   "n": 106,
+   "area": "Medicina Familiar y Comunitaria",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "",
+   "pregunta": "En relación a los valores de Hemoglobina glicosilada (HbA1c), ¿cuál factor puede ocasionar falsos negativos?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Edad y el sexo"
+    },
+    {
+     "l": "b",
+     "t": "Alto riesgo cardiovascular"
+    },
+    {
+     "l": "c",
+     "t": "Anemia"
+    },
+    {
+     "l": "d",
+     "t": "Ingesta de ácido acetil salicílico"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La anemia puede ocasionar falsos negativos de la HbA1c, con valores falsamente bajos, por la menor vida media de los eritrocitos.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-107",
+   "anio": 2025,
+   "n": 107,
+   "area": "Cirugía",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "",
+   "pregunta": "La presencia de cuerpos de psamoma en la punción citológica tiroidea orienta a:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Cáncer folicular"
+    },
+    {
+     "l": "b",
+     "t": "Cáncer medular"
+    },
+    {
+     "l": "c",
+     "t": "Cáncer papilar"
+    },
+    {
+     "l": "d",
+     "t": "Cáncer indiferenciado"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La presencia de cuerpos de psamoma en la punción citológica tiroidea orienta a un carcinoma papilar de tiroides.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-108",
+   "anio": 2025,
+   "n": 108,
+   "area": "Cirugía",
+   "desempate": true,
+   "puntos": 5,
+   "caso": "",
+   "pregunta": "En un paciente que cursa una colecistitis aguda que no responde al tratamiento médico y tiene un elevado riesgo anestésico quirúrgico debido a sus comorbilidades, ¿cuál es la opción terapéutica adecuada?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Colecistostomía percutánea"
+    },
+    {
+     "l": "b",
+     "t": "Colangiografía endoscópica retrógrada y papilotomía"
+    },
+    {
+     "l": "c",
+     "t": "Drenaje biliar externo de la vía principal"
+    },
+    {
+     "l": "d",
+     "t": "Colecistectomía laparoscópica"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "En una colecistitis aguda que no responde al tratamiento médico en un paciente de alto riesgo quirúrgico, la opción adecuada es la colecistostomía percutánea.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-109",
+   "anio": 2025,
+   "n": 109,
+   "area": "Cirugía",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "",
+   "pregunta": "Ante la sospecha de abscesos profundos isquiorectales y pelvirectales sin expresión cutánea e inaccesibles al tacto rectal, ¿qué estudio solicitaría para confirmarlo?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Tomografía computada"
+    },
+    {
+     "l": "b",
+     "t": "Resonancia nuclear magnética"
+    },
+    {
+     "l": "c",
+     "t": "Ecografía endoanal"
+    },
+    {
+     "l": "d",
+     "t": "Estudio contrastado de recto"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Ante abscesos profundos isquiorectales y pelvirectales sin expresión cutánea ni accesibles al tacto, la resonancia nuclear magnética es el estudio para confirmarlos.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-110",
+   "anio": 2025,
+   "n": 110,
+   "area": "Cirugía",
+   "desempate": true,
+   "puntos": 4,
+   "caso": "",
+   "pregunta": "Ante un paciente con colangitis aguda en tratamiento con antibióticos que no remite en 48 horas, ¿cuál es la conducta a adoptar?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Drenaje biliar"
+    },
+    {
+     "l": "b",
+     "t": "Conducta expectante por 24 horas"
+    },
+    {
+     "l": "c",
+     "t": "Rotación de antibióticos"
+    },
+    {
+     "l": "d",
+     "t": "Solicita tomografía de control"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "En una colangitis aguda que no remite a las 48 horas de antibióticos, la conducta es el drenaje biliar.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-111",
+   "anio": 2025,
+   "n": 111,
+   "area": "Cirugía",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "",
+   "pregunta": "En la obstrucción neoplásica de la via biliar, la presencia de ictericia intermitente acompañada de materias fecales plateadas es típica de los tumores de:",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Duodeno"
+    },
+    {
+     "l": "b",
+     "t": "Páncreas"
+    },
+    {
+     "l": "c",
+     "t": "Papila"
+    },
+    {
+     "l": "d",
+     "t": "Vesícula biliar"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La ictericia intermitente con materias fecales plateadas (mezcla de sangre y acolia) es típica de los tumores de la papila o ampolla de Vater.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-112",
+   "anio": 2025,
+   "n": 112,
+   "area": "Cirugía",
+   "desempate": true,
+   "puntos": 2,
+   "caso": "",
+   "pregunta": "¿Qué estudio solicitaría para la confirmación diagnóstica de una acalasia de esófago?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Ecoendoscopía"
+    },
+    {
+     "l": "b",
+     "t": "Resonancia magnética"
+    },
+    {
+     "l": "c",
+     "t": "PHmetría"
+    },
+    {
+     "l": "d",
+     "t": "Manometría"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "La manometría esofágica es el estudio para la confirmación diagnóstica de la acalasia.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-113",
+   "anio": 2025,
+   "n": 113,
+   "area": "Pediatría",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "",
+   "pregunta": "¿Cuál de los siguientes es una justificación para el uso de azitromicina en la disentería?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Efecto inmunomodulador"
+    },
+    {
+     "l": "b",
+     "t": "Buena concentración intracelular"
+    },
+    {
+     "l": "c",
+     "t": "Elevada eliminación fecal"
+    },
+    {
+     "l": "d",
+     "t": "Alta absorción oral"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "La azitromicina se justifica en la disentería por su buena concentración intracelular, útil frente a los gérmenes causales.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-114",
+   "anio": 2025,
+   "n": 114,
+   "area": "Pediatría",
+   "desempate": true,
+   "puntos": 2,
+   "caso": "",
+   "pregunta": "¿Qué características licuorales espera encontrar en el estudio citoquímico del líquido cefalorraquídeo en un paciente con sospecha de meningo-encefalitis aguda bacteriana?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Aspecto turbio, glucorraquia aumentada y eritrocitos"
+    },
+    {
+     "l": "b",
+     "t": "Aspecto claro, hipoproteinorraquia y linfocitos"
+    },
+    {
+     "l": "c",
+     "t": "Aspecto turbio, hipoglucorraquia y polimorfonucleares"
+    },
+    {
+     "l": "d",
+     "t": "Aspecto claro, hiperproteinorraquia y celularidad normal"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "En la meningoencefalitis aguda bacteriana el LCR es de aspecto turbio, con hipoglucorraquia y predominio de polimorfonucleares.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-115",
+   "anio": 2025,
+   "n": 115,
+   "area": "Pediatría",
+   "desempate": true,
+   "puntos": 5,
+   "caso": "",
+   "pregunta": "Desde el punto de vista fisiológico, ¿que provoca la ligadura oportuna del cordón en el recién nacido?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Cierre inmediato del ductus arterioso"
+    },
+    {
+     "l": "b",
+     "t": "Transición hemodinámica más estable"
+    },
+    {
+     "l": "c",
+     "t": "Aumento de la resistencia vascular pulmonar"
+    },
+    {
+     "l": "d",
+     "t": "Disminución del flujo cerebral"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "La ligadura oportuna (tardía) del cordón favorece una transición hemodinámica más estable del recién nacido y mejores reservas de hierro.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-116",
+   "anio": 2025,
+   "n": 116,
+   "area": "Pediatría",
+   "desempate": true,
+   "puntos": 2,
+   "caso": "",
+   "pregunta": "¿Cuál de los siguientes es factor de riesgo para desarrollar anemia ferropénica en menores de 2 años?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Peso al nacer 3500 grs"
+    },
+    {
+     "l": "b",
+     "t": "Edad gestacional 39 semanas"
+    },
+    {
+     "l": "c",
+     "t": "Consumo excesivo de leche de vaca"
+    },
+    {
+     "l": "d",
+     "t": "Clampeo tardío del cordón"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El consumo excesivo de leche de vaca es un factor de riesgo de anemia ferropénica en menores de 2 años.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-117",
+   "anio": 2025,
+   "n": 117,
+   "area": "Pediatría",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "",
+   "pregunta": "¿Cuál de estos elementos de laboratorio es más específico para confirmar déficit de hierro?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Hemoglobina"
+    },
+    {
+     "l": "b",
+     "t": "Hematocrito"
+    },
+    {
+     "l": "c",
+     "t": "Ferritina sérica"
+    },
+    {
+     "l": "d",
+     "t": "Reticulocitos"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "La ferritina sérica es el parámetro de laboratorio más específico para confirmar el déficit de hierro.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-118",
+   "anio": 2025,
+   "n": 118,
+   "area": "Pediatría",
+   "desempate": true,
+   "puntos": 5,
+   "caso": "",
+   "pregunta": "¿Qué factor dietético es facilitador del hierro no hem?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Ácido ascórbico"
+    },
+    {
+     "l": "b",
+     "t": "Filatos"
+    },
+    {
+     "l": "c",
+     "t": "Polifenoles"
+    },
+    {
+     "l": "d",
+     "t": "Calcio"
+    }
+   ],
+   "correcta": [
+    "a"
+   ],
+   "explicacion": "El ácido ascórbico (vitamina C) es un facilitador de la absorción del hierro no hem.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-119",
+   "anio": 2025,
+   "n": 119,
+   "area": "Ginecotocología",
+   "desempate": true,
+   "puntos": 4,
+   "caso": "Mujer de 35 años, se realiza tamizaje de cáncer de cuello uterino mediante test de HPV con genotipificación positiva para HPV 16.",
+   "pregunta": "¿Qué conducta adoptaría?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Papanicolau"
+    },
+    {
+     "l": "b",
+     "t": "Colposcopia"
+    },
+    {
+     "l": "c",
+     "t": "Histeroscopia"
+    },
+    {
+     "l": "d",
+     "t": "Nuevo test de HPV en 1 año"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Ante un test de HPV positivo para el genotipo 16, de alto riesgo, la conducta es la colposcopía.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-120",
+   "anio": 2025,
+   "n": 120,
+   "area": "Ginecotocología",
+   "desempate": true,
+   "puntos": 2,
+   "caso": "",
+   "pregunta": "¿Cuál es el mecanismo por el cual el tabaquismo Incrementa el riesgo de embarazo ectópico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Induce hipoxemia por vasoconstricción uterina"
+    },
+    {
+     "l": "b",
+     "t": "Disminuye la contractilidad tubárica y altera la función ciliar"
+    },
+    {
+     "l": "c",
+     "t": "Provoca hiperprolactinemia"
+    },
+    {
+     "l": "d",
+     "t": "Aumenta la concentración de prostaglandinas F2d"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "El tabaquismo incrementa el riesgo de embarazo ectópico porque disminuye la contractilidad tubárica y altera la función ciliar.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-121",
+   "anio": 2025,
+   "n": 121,
+   "area": "Ginecotocología",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "",
+   "pregunta": "En mujeres con alto riesgo de desarrollar cáncer de mama ¿a qué edad comenzaría el tamizaje?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "40 años"
+    },
+    {
+     "l": "b",
+     "t": "30 años"
+    },
+    {
+     "l": "c",
+     "t": "25 años"
+    },
+    {
+     "l": "d",
+     "t": "18 años"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "En mujeres con alto riesgo de cáncer de mama el tamizaje comienza a los 25 años.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-122",
+   "anio": 2025,
+   "n": 122,
+   "area": "Ginecotocología",
+   "desempate": true,
+   "puntos": 5,
+   "caso": "Primigesta, cursa 30 semanas de embarazo, presenta una hidrorrea típica amniótica. Contracciones 2 en 10 minutos y dilatación cervical de 5 cm",
+   "pregunta": "¿Cuál es su diagnóstico clínico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Rotura prematura de membranas ovulares"
+    },
+    {
+     "l": "b",
+     "t": "Amenaza de parto prematuro con rotura prematura de membranas"
+    },
+    {
+     "l": "c",
+     "t": "Trabajo de parto con rotura prematura de membranas"
+    },
+    {
+     "l": "d",
+     "t": "Trabajo de parto pretérmino con rotura precoz de membranas ovulares"
+    }
+   ],
+   "correcta": [
+    "d"
+   ],
+   "explicacion": "Una gestación pretérmino (30 semanas) con hidrorrea, contracciones y dilatación de 5 cm corresponde a un trabajo de parto pretérmino con rotura precoz de membranas ovulares.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-123",
+   "anio": 2025,
+   "n": 123,
+   "area": "Ginecotocología",
+   "desempate": true,
+   "puntos": 4,
+   "caso": "Una paciente embarazada Rh negativa de 41 semanas, que recibió inmunoglobulina anti-D a las 28 semanas, tiene un parto vaginal. El recién nacido es Rh positivo.",
+   "pregunta": "¿Qué conducta adoptaría en relación con la inmunoglobulina anti-D?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "No repetir"
+    },
+    {
+     "l": "b",
+     "t": "Administrar si el coombs indirecto es positivo"
+    },
+    {
+     "l": "c",
+     "t": "Administrar dentro de las 72 horas posparto"
+    },
+    {
+     "l": "d",
+     "t": "Administrar previo a un próximo embarazo"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "En una puérpera Rh negativa con recién nacido Rh positivo, la inmunoglobulina anti-D se administra dentro de las 72 horas posparto.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-124",
+   "anio": 2025,
+   "n": 124,
+   "area": "Ginecotocología",
+   "desempate": true,
+   "puntos": 2,
+   "caso": "",
+   "pregunta": "En una paciente cursando el tercer trimestre de gestación ¿qué vacunas recomienda?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Varicela"
+    },
+    {
+     "l": "b",
+     "t": "Hepatitis B"
+    },
+    {
+     "l": "c",
+     "t": "Tos convulsa"
+    },
+    {
+     "l": "d",
+     "t": "Sarampión"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "En el tercer trimestre se recomienda la vacuna contra la tos convulsa (componente pertussis) para proteger al recién nacido.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-125",
+   "anio": 2025,
+   "n": 125,
+   "area": "Clínica Médica",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "Hombre, 58 años, alcoholista en abstinencia. Consulta por ascitis moderada. Líquido ascítico: límpido, citrino; GB 766/mm², PMN 368/mm³, proteínas 1.6 g/dL, albúmina 1.2 g/dL. Cultivo sin desarrollo.",
+   "pregunta": "Ante este líquido ascítico ¿cuál sería su diagnóstico?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Bacterioascitis no neutrocítica"
+    },
+    {
+     "l": "b",
+     "t": "Peritonitis bacteriana espontánea"
+    },
+    {
+     "l": "c",
+     "t": "Carcinomatosis peritoneal"
+    },
+    {
+     "l": "d",
+     "t": "Peritonitis secundaria"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Un líquido ascítico con polimorfonucleares iguales o mayores a 250/mm3 define una peritonitis bacteriana espontánea.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-126",
+   "anio": 2025,
+   "n": 126,
+   "area": "Clínica Médica",
+   "desempate": true,
+   "puntos": 5,
+   "caso": "",
+   "pregunta": "¿Cuál sería su conducta terapéutica?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Expectante"
+    },
+    {
+     "l": "b",
+     "t": "Antibiótico i/v"
+    },
+    {
+     "l": "c",
+     "t": "Albúmina + antibiótico i/v"
+    },
+    {
+     "l": "d",
+     "t": "Colocar tubo de drenaje abdominal"
+    }
+   ],
+   "correcta": [
+    "c"
+   ],
+   "explicacion": "El tratamiento de la peritonitis bacteriana espontánea es antibiótico intravenoso asociado a albúmina, que reduce el riesgo de síndrome hepatorrenal.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-127",
+   "anio": 2025,
+   "n": 127,
+   "area": "Clínica Médica",
+   "desempate": true,
+   "puntos": 4,
+   "caso": "Hombre de 75 años con fibrilación auricular permanente y score CHADS-VA = 5.",
+   "pregunta": "¿Qué tratamiento de prevención cardioembólica está indicado?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "AAS"
+    },
+    {
+     "l": "b",
+     "t": "Apixaban"
+    },
+    {
+     "l": "c",
+     "t": "Enoxaparina"
+    },
+    {
+     "l": "d",
+     "t": "Clopidogrel"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "Con fibrilación auricular y score CHA2DS2-VASc elevado, está indicada la anticoagulación con un anticoagulante oral directo como el apixabán.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-128",
+   "anio": 2025,
+   "n": 128,
+   "area": "Clínica Médica",
+   "desempate": true,
+   "puntos": 2,
+   "caso": "",
+   "pregunta": "¿Cuál es el fármaco que mejora la sobrevida en la insuficiencia cardíaca con FEVI reducida?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Hidroclorotiazida"
+    },
+    {
+     "l": "b",
+     "t": "Espironolactona"
+    },
+    {
+     "l": "c",
+     "t": "Digoxina"
+    },
+    {
+     "l": "d",
+     "t": "Furosemide"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "La espironolactona, antagonista de la aldosterona, es un fármaco que mejora la sobrevida en la insuficiencia cardíaca con FEVI reducida.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-129",
+   "anio": 2025,
+   "n": 129,
+   "area": "Clínica Médica",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "Hombre, 64 años, con múltiples factores de riesgo cardiovascular, consulta por dolor torácico de reposo, opresivo de 45 minutos de duración. ECG: elevación persistente del ST de 3 mm en V2-V4. Troponinas pendientes.",
+   "pregunta": "En relación al manejo inicial ¿qué medida terapéutica tiene mayor impacto en la sobrevida del paciente?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Inhibidores de la enzima convertora de angiotensina"
+    },
+    {
+     "l": "b",
+     "t": "Angioplastia primaria"
+    },
+    {
+     "l": "c",
+     "t": "Anticoagulantes orales directos"
+    },
+    {
+     "l": "d",
+     "t": "Cirugía de revascularización miocárdica"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "En un infarto con elevación del ST, la medida con mayor impacto en la sobrevida es la reperfusión precoz mediante angioplastia primaria.",
+   "claveTipo": "oficial"
+  },
+  {
+   "id": "2025-130",
+   "anio": 2025,
+   "n": 130,
+   "area": "Clínica Médica",
+   "desempate": true,
+   "puntos": 3,
+   "caso": "",
+   "pregunta": "En el tromboembolismo pulmonar de alto riesgo con shock obstructivo ¿cuál es la recomendación inicial?",
+   "opciones": [
+    {
+     "l": "a",
+     "t": "Colocar filtro de vena cava"
+    },
+    {
+     "l": "b",
+     "t": "Fibrinólisis sistémica"
+    },
+    {
+     "l": "c",
+     "t": "Anticoagulación con heparina"
+    },
+    {
+     "l": "d",
+     "t": "Trombectomía percutánea"
+    }
+   ],
+   "correcta": [
+    "b"
+   ],
+   "explicacion": "En el tromboembolismo pulmonar de alto riesgo con shock obstructivo, la recomendación inicial es la fibrinólisis sistémica.",
+   "claveTipo": "oficial"
+  }
+ ]
+}

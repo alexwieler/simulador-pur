@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Simulador PUR</title>
+<meta name="description" content="Simulador de la Prueba Única de Residencias Médicas de Uruguay. Practicá por área con preguntas reales.">
+<meta name="theme-color" content="#0e7c86" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1620" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Simulador PUR">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ TOPBAR ============ -->
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">PUR</div>
+      <div class="brand-tx">
+        <strong>Simulador PUR</strong>
+        <span>Prueba Única de Residencias · Uruguay</span>
+      </div>
+    </div>
+    <button id="themeBtn" class="icon-btn" aria-label="Cambiar tema claro/oscuro" title="Tema claro/oscuro">
+      <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="4.5"/><line x1="12" y1="19.5" x2="12" y2="22"/><line x1="2" y1="12" x2="4.5" y2="12"/><line x1="19.5" y1="12" x2="22" y2="12"/><line x1="4.6" y1="4.6" x2="6.4" y2="6.4"/><line x1="17.6" y1="17.6" x2="19.4" y2="19.4"/><line x1="4.6" y1="19.4" x2="6.4" y2="17.6"/><line x1="17.6" y1="6.4" x2="19.4" y2="4.6"/></g></svg>
+      <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ INICIO ============ -->
+  <section id="screen-home" class="screen">
+
+    <div class="card">
+      <h2>1 · Elegí un área</h2>
+      <p class="hint">Practicá enfocado en un área o rendí el examen completo.</p>
+      <div class="areas" id="areaList" role="group" aria-label="Áreas"></div>
+    </div>
+
+    <div class="card">
+      <h2>2 · Configurá el simulacro</h2>
+      <p class="hint">Ajustá cantidad, modo de corrección y opciones.</p>
+
+      <div class="field">
+        <label id="lblCant">Cantidad de preguntas</label>
+        <div class="pills" id="cantRow" role="group" aria-labelledby="lblCant"></div>
+      </div>
+
+      <div class="field">
+        <label id="lblModo">Modo</label>
+        <p class="desc">Práctica corrige cada pregunta al instante. Examen corrige al final, cronometrado como el día real.</p>
+        <div class="pills" id="modoRow" role="group" aria-labelledby="lblModo">
+          <button class="pill on" data-modo="practica" type="button">Práctica</button>
+          <button class="pill" data-modo="examen" type="button">Examen</button>
+        </div>
+      </div>
+
+      <div class="field" id="cronField">
+        <label id="lblCron">Cronómetro</label>
+        <div class="pills" id="cronRow" role="group" aria-labelledby="lblCron">
+          <button class="pill on" data-cron="up" type="button">Ascendente</button>
+          <button class="pill" data-cron="down" type="button">Cuenta regresiva (ritmo real)</button>
+          <button class="pill" data-cron="off" type="button">Sin cronómetro</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <label id="lblOpt">Opciones</label>
+        <div class="pills" id="optRow" role="group" aria-labelledby="lblOpt">
+          <button class="pill on" data-opt="shuffle" type="button" aria-pressed="true">Mezclar preguntas</button>
+          <button class="pill on" data-opt="desempate" type="button" aria-pressed="true">Incluir desempate</button>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="startBtn" type="button">Comenzar simulacro</button>
+      <p class="kbd-hint">Atajos: <kbd>A</kbd>–<kbd>D</kbd> responder · <kbd>←</kbd> <kbd>→</kbd> navegar · <kbd>Enter</kbd> siguiente</p>
+    </div>
+
+    <div class="card" id="statsCard">
+      <h2>Tu progreso</h2>
+      <p class="hint">Se guarda en este dispositivo y mejora a medida que practicás.</p>
+      <div class="stat3">
+        <div class="stat"><div class="v" id="stTot">0</div><div class="l">Respondidas</div></div>
+        <div class="stat"><div class="v" id="stPct">—</div><div class="l">% Acierto</div></div>
+        <div class="stat"><div class="v" id="stStreak">0</div><div class="l">Racha (días)</div></div>
+      </div>
+      <div class="areabars" id="areaBars"></div>
+      <button class="btn btn-ghost btn-sm" id="resetStats" type="button">Borrar progreso</button>
+    </div>
+  </section>
+
+  <!-- ============ QUIZ ============ -->
+  <section id="screen-quiz" class="screen hidden">
+    <div class="qbar">
+      <div class="qbar-row">
+        <span class="chip" id="qArea">Área</span>
+        <span class="qcount" id="qProg">1 / 20</span>
+        <span class="timer" id="qTimer">00:00</span>
+        <button class="icon-btn sm" id="navBtn" type="button" aria-label="Navegador de preguntas" title="Navegador de preguntas">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><g fill="currentColor"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></g></svg>
+        </button>
+      </div>
+      <div class="track"><div class="fill" id="qFill"></div></div>
+    </div>
+
+    <div class="card qcard">
+      <div class="qtags">
+        <span class="tag-desem hidden" id="qDesem">Desempate</span>
+        <button class="flagbtn" id="flagBtn" type="button" aria-pressed="false">
+          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M6 3v18M6 4h11l-2.5 4L17 12H6"/></svg>
+          <span>Marcar</span>
+        </button>
+      </div>
+      <div class="caso hidden" id="qCaso"><span class="caso-lab">Caso clínico</span><span id="qCasoTx"></span></div>
+      <p class="qtext" id="qText"></p>
+      <div class="opts" id="qOpts" role="radiogroup" aria-label="Opciones de respuesta"></div>
+      <div class="fb" id="qFb" role="status"><div class="fb-h" id="qFbH"></div><div id="qFbX"></div></div>
+    </div>
+
+    <div class="navrow">
+      <button class="btn btn-ghost" id="prevBtn" type="button">← Anterior</button>
+      <button class="btn btn-primary" id="nextBtn" type="button">Siguiente →</button>
+    </div>
+    <button class="btn btn-ghost btn-sm btn-block" id="quitBtn" type="button">Terminar y ver resultados</button>
+  </section>
+
+  <!-- ============ RESULTADOS ============ -->
+  <section id="screen-result" class="screen hidden">
+    <div class="card">
+      <div class="score">
+        <div class="ring" id="ring"><div class="ring-in">
+          <div class="ring-pct" id="rPct">0%</div>
+          <div class="ring-fr" id="rFrac">0 / 0</div>
+        </div></div>
+        <p class="verdict" id="rVerdict"></p>
+      </div>
+      <div class="stat3">
+        <div class="stat"><div class="v ok-tx" id="rOk">0</div><div class="l">Correctas</div></div>
+        <div class="stat"><div class="v bad-tx" id="rBad">0</div><div class="l">Incorrectas</div></div>
+        <div class="stat"><div class="v" id="rTime">00:00</div><div class="l">Tiempo</div></div>
+      </div>
+      <p class="hint" id="rPuntaje" style="text-align:center;margin-top:12px"></p>
+    </div>
+
+    <div class="card">
+      <h2>Desempeño por área</h2>
+      <p class="hint">Dónde rendiste bien y dónde reforzar.</p>
+      <div class="areabars" id="rAreaBars"></div>
+    </div>
+
+    <div class="card">
+      <div class="rev-head">
+        <h2>Revisión</h2>
+        <button class="btn btn-ghost btn-sm" id="revFilter" type="button">Ver solo errores</button>
+      </div>
+      <div id="revList"></div>
+    </div>
+
+    <div class="navrow">
+      <button class="btn btn-ghost" id="homeBtn" type="button">Inicio</button>
+      <button class="btn btn-primary" id="againBtn" type="button">Nuevo simulacro</button>
+    </div>
+  </section>
+
+  <p class="foot">
+    Banco con preguntas reales de la PUR 2025 (130, con clave oficial de la Escuela de Graduados).<br>
+    Herramienta de estudio · No sustituye la bibliografía oficial · Hecho para preparar la Prueba Única de Residencias.
+  </p>
+</main>
+
+<!-- ============ NAVEGADOR (drawer) ============ -->
+<div class="drawer-bg hidden" id="navDrawerBg">
+  <aside class="drawer" id="navDrawer" role="dialog" aria-label="Navegador de preguntas">
+    <div class="drawer-h">
+      <strong>Navegador</strong>
+      <button class="icon-btn sm" id="navClose" type="button" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="navlegend">
+      <span><i class="lg-ok"></i>Correcta</span>
+      <span><i class="lg-bad"></i>Incorrecta</span>
+      <span><i class="lg-ans"></i>Respondida</span>
+      <span><i class="lg-flag"></i>Marcada</span>
+      <span><i class="lg-none"></i>Sin responder</span>
+    </div>
+    <div class="navgrid" id="navGrid"></div>
+  </aside>
+</div>
+
+<!-- ============ MODAL ============ -->
+<div class="modal-bg hidden" id="modalBg">
+  <div class="modal" role="alertdialog" aria-labelledby="modalTitle" aria-describedby="modalText">
+    <h3 id="modalTitle">Confirmar</h3>
+    <p id="modalText"></p>
+    <div class="modal-btns">
+      <button class="btn btn-ghost" id="modalNo" type="button">Cancelar</button>
+      <button class="btn btn-primary" id="modalYes" type="button">Confirmar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TOAST ============ -->
+<div class="toast hidden" id="toast" role="status"></div>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('sw.js').catch(function(){});
+    });
+  }
+</script>
+<script src="app.js"></script>
+</body>
+</html>
