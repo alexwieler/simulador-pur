@@ -1,6 +1,6 @@
 /* ===================== Service Worker — Simulador PUR ===================== */
 /* Subí el número de versión cada vez que cambies archivos para forzar el refresco. */
-const CACHE = 'pur-sim-v2';
+const CACHE = 'pur-sim-v3';
 const ASSETS = [
   '.',
   'index.html',

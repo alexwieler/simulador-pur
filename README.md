@@ -8,7 +8,7 @@ Funciona sin conexión y se instala en el celular como una app.
 
 ## Características
 
-- **Banco de 343 preguntas**: 130 reales de la PUR 2025 (con clave oficial) y 213 de práctica, nuevas y validadas, que cubren los 71 temas del temario oficial. Se puede filtrar por tipo (oficiales / práctica / todas).
+- **Banco de 400 preguntas**: 130 reales de la PUR 2025 (con clave oficial) y 270 de práctica, nuevas y validadas contra la bibliografía oficial (Nelson, Harrison, Sabiston, Farreras, Jufe y pautas del MSP), que cubren los 71 temas del temario. Se puede filtrar por tipo (oficiales / práctica / todas).
 - **Práctica por área** o examen completo, con cantidad configurable.
 - **Dos modos**: Práctica (corrección inmediata con explicación) y Examen (corrección al final).
 - **Cronómetro** ascendente, cuenta regresiva a ritmo real (≈1:51 por pregunta) o sin cronómetro.

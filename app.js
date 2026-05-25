@@ -112,7 +112,7 @@ function renderHome(){
     b.onclick=()=>{cfg.area=name;renderHome();};
     list.appendChild(b);
   };
-  mk("Todas","Examen completo (todas)",BANK.length);
+  mk("Todas","Examen completo (todas)",countArea("Todas"));
   AREAS.forEach(a=>{ const c=countArea(a); if(c) mk(a,a,c); });
 
   /* cantidad */
